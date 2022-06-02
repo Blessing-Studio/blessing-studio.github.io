@@ -4,7 +4,7 @@ You can use the [editor on GitHub](https://github.com/Blessing-Studio/blessing-s
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 [Download1](https://blessing-studio.github.io/edit/main/qw.exe)
-[Download2](https://blessing-studio.github.io/edit/main/Plain Craft Launcher 2.exe)
+[Download2](https://blessing-studio.github.io/edit/main/[Beta39]FSM.exe)
 
 ### Markdown
 
