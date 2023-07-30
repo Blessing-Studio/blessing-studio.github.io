@@ -1,25 +1,29 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
+title: 终端档案库
+titleTemplate: 用代码表达言语的魅力，用代码书写山河的壮丽。
+
 hero:
-  name: "Blessing.TA"
-  text: "Blessing.TA"
-  tagline: My great project tagline
+  name: TA
+  text: 终端档案库
+  tagline: (WIP)
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: 快速上手
+      link: /introduce
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Github
+      link: https://github.com/Blessing-Studio
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: ⁉️
+    title: 疑难解答
+    details: 在这里查看并解决使用我们项目时可能遇到的错误。
+  - icon: 🛠️
+    title: 开发文档
+    details: 正在使用来自 Blessing Studio 的开源项目？在这里你可以查看我们的技术文档。
+  # - icon: 🖖
+  #   title: 敏捷开发
+  #   details: 项目提供多种语言指导，未来还将提供 SDK 。
 ---
-
