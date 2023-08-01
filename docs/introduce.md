@@ -10,8 +10,8 @@ import {
 
 const members = [
   {
-    avatar: 'https://www.github.com/YangSpring114.png',
-    name: '西路Baka',
+    avatar: 'https://avatars.githubusercontent.com/u/99802662?v=4',
+    name: 'YangSpring114',
     title: '创建者',
     links: [
       { icon: 'github', link: 'https://github.com/YangSpring114' }
@@ -47,6 +47,22 @@ const members = [
     title: 'Web 开发',
     links: [
       { icon: 'github', link: 'https://github.com/NingLiu1998' }
+    ]
+  },
+  {
+    avatar: 'https://github.com/Px2uRo.png',
+    name: 'Px2uRo',
+    title: 'Mod 程序',
+    links: [
+      { icon: 'github', link: 'https://github.com/Px2uRo' }
+    ]
+  },
+  {
+    avatar: 'https://github.com/JustRainy.png',
+    name: 'JustRainy',
+    title: 'Mod 美术',
+    links: [
+      { icon: 'github', link: 'https://github.com/JustRainy' }
     ]
   }
 ];
