@@ -96,6 +96,7 @@ defineConfig({
         items: [
           { text: '简介', link: '/minecraftlaunch/' },
           { text: '安装', link: '/minecraftlaunch/install' },
+          { text: '启动器', link: '/minecraftlaunch/launcher' },
           { 
             text: '安装器', 
             collapsible: true,
