@@ -8,7 +8,7 @@
 
 而初始化启动器的方法也非常简单，我们为其提供了两个构造方法：
 
-```csharp
+```C#
 JavaMinecraftLauncher();
 JavaMinecraftLauncher(LaunchConfig launchSetting, GameCoreUtil gameCoreUtil);
 ```
@@ -26,16 +26,16 @@ JavaMinecraftLauncher(LaunchConfig launchSetting, GameCoreUtil gameCoreUtil);
     <div>这是游戏启动时大部分信息的配置项，是最重要的一个参数，这个参数里的核心信息如果有误将无法通过预启动检查，其完整的实例化演示如下：</div>
 
 
-    ```csharp
+    ```C#
     LaunchConfig lc = new(){
-        Accout = Account.Default, //此处使用的为默认账户，如想自定义，请使用验证器！
+        Account = Account.Default, //此处使用的为默认账户，如想自定义，请使用验证器！
         GameWindowConfig = new GameWindowConfig(){
             Width = <窗口宽度>,
             Height = <窗口高度>,
-            IsFullScreen = false
+            IsFullscreen = false
         },
         JvmConfig = new JvmConfig("你的java路径"){
-            MaxMemory = <最大内存>，
+            MaxMemory = <最大内存>,
             MinMemory = <最小内存> 
         },
         ServerConfig = new ServerConfig(){
@@ -50,7 +50,7 @@ JavaMinecraftLauncher(LaunchConfig launchSetting, GameCoreUtil gameCoreUtil);
 
     如果你不需要太多的配置，或者嫌上面的方法太长，也可以使用下面的方法：
     ```C#
-    LaunchConig lc = new(authenticator.Auth, new("你的Java路径")， new(), new());
+    LaunchConig lc = new(Account.Default, new("你的Java路径")， new(), new());
     ```
 
 + GameCoreUtil
@@ -110,7 +110,7 @@ JavaMinecraftLauncher(LaunchConfig launchSetting, GameCoreUtil gameCoreUtil);
 ## 控制台示例
 为了满足一些懒狗的模块（
 ```C#
-OfflineAuthenticator authenticaor = new("Player");
+OfflineAuthenticator authenticator = new("Player");
 
 LaunchConfig lc = new(){
     Accout = authenticator.Auth(),
