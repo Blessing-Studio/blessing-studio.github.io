@@ -120,7 +120,7 @@ LaunchConfig lc = new(){
         IsFullScreen = false
     },
     JvmConfig = new JvmConfig("C:\\Program Files\\Java\\jdk1.8.0_202\\bin\\java.exe"){
-        MaxMemory = 1024，
+        MaxMemory = 1024,
         MinMemory = 512 
     },
     NativesFolder = null,
