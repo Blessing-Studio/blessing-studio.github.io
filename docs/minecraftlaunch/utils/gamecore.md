@@ -18,7 +18,7 @@ GameCoreUtil(DirectoryInfo root);
 
 :::tip
 我们为 `GameCoreUtil` 类型的参数提供了隐式转换器，在需要使用 `GameCoreUtil` 类型的参数时，可以传入 `string` 类型， `DirectoryInfo` 类型， `GameCore` 类型的参数，其将会被装箱为`GameCoreUtil`类型，例如：
-`GameCoreInstaller installer = new("，minecraft", "1.12.2");`
+`GameCoreInstaller installer = new(".minecraft", "1.12.2");`
 :::
 
 ## 基本信息
