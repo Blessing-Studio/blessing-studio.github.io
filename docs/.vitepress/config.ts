@@ -107,6 +107,7 @@ defineConfig({
               { text: 'OptiFine 安装器', link: '/minecraftlaunch/installers/optifine' },
               { text: 'Fabric 安装器', link: '/minecraftlaunch/installers/fabric' },
               { text: 'Quilt 安装器', link: '/minecraftlaunch/installers/quilt' },
+              { text: 'NeoForged 安装器', link: '/minecraftlaunch/installers/neoforge' },
               { text: 'CurseForge 整合包安装器', link: '/minecraftlaunch/installers/modpacks' },
             ]
           },
