@@ -10,7 +10,7 @@ ML 提供了 GetNeoForgesOfVersionAsync 方法以获取指定Minecraft的所有 
 ## 获取 NeoForge 安装信息
 您需要提前获取 NeoForge 的安装信息才能进行 NeoForge 的安装！示例如下：
 ```C#
-var info = (await NeoForgeInstaller.GetNeoForgesOfVersionAsync().ToListAsync()).Last;
+var info = (await NeoForgeInstaller.GetNeoForgesOfVersionAsync().ToListAsync()).Last();
 ```
 Last 方法会返回这个 Mc 版本最新的 NeoForge.
 

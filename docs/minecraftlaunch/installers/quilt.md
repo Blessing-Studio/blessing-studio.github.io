@@ -58,7 +58,7 @@ installer.ProgressChanged += (_, x) => {
 ``` C#
 
 var quiltbuild = (await QuiltInstaller.GetQuiltBuildsByVersionAsync("1.16.5")).First();
-QuiltInstaller installer = new(".minecraft", forgebuild);
+QuiltInstaller installer = new(".minecraft", quiltbuild);
 
 installer.ProgressChanged += (_, x) => {
     Console.WriteLine(x.ProgressDescription);
