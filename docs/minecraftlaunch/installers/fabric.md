@@ -58,7 +58,7 @@ installer.ProgressChanged += (_, x) => {
 ``` C#
 
 var fabricbuild = (await FabricInstaller.GetFabricBuildsByVersionAsync("1.16.5")).First();
-FabricInstaller installer = new(".minecraft", forgebuild);
+FabricInstaller installer = new(".minecraft", fabricbuild);
 
 installer.ProgressChanged += (_, x) => {
     Console.WriteLine(x.ProgressDescription);
