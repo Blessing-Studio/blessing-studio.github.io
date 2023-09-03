@@ -39,8 +39,8 @@ JavaMinecraftLauncher(LaunchConfig launchSetting, GameCoreUtil gameCoreUtil);
             MinMemory = <最小内存> 
         },
         ServerConfig = new ServerConfig(){
-            Ip = <ip>, 
-            Port = <port>
+            Ip = <ip地址>, 
+            Port = <端口号>
         },
         NativesFolder = null, //一般可以无视这个选项
         IsEnableIndependencyCore = true//是否启用版本隔离
