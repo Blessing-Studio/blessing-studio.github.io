@@ -50,7 +50,7 @@ JavaMinecraftLauncher(LaunchConfig launchSetting, GameCoreUtil gameCoreUtil);
 
     如果你不需要太多的配置，或者嫌上面的方法太长，也可以使用下面的方法：
     ```C#
-    LaunchConig lc = new(Account.Default, new("你的Java路径")， new(), new());
+    LaunchConig lc = new(Account.Default, new("你的Java路径"), new(), new());
     ```
 
 + GameCoreUtil
