@@ -117,7 +117,7 @@ defineConfig({
             collapsible: true,
             link: '/minecraftlaunch/utils/',
             items: [
-              { text: 'Curseforge 操作工具', link: '/minecraftlaunch/utils/curseforge' },
+              { text: 'CurseForge 操作工具', link: '/minecraftlaunch/utils/curseforge' },
               { text: 'Modrinth 操作工具', link: '/minecraftlaunch/utils/modrinth' },
               { text: 'Java 操作工具', link: '/minecraftlaunch/utils/java' },
               { text: '模组操作工具', link: '/minecraftlaunch/utils/modpack' },
