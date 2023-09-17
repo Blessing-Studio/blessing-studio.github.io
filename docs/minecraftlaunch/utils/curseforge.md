@@ -13,7 +13,7 @@
 
 ```C#
 
-CurseforgeUtil util = new("你的 API Key");
+CurseForgeUtil util = new("你的 API Key");
 
 ```
 
