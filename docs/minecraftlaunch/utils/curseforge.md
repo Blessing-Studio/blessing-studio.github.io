@@ -1,6 +1,6 @@
-# Curseforge 操作工具
+# CurseForge 操作工具
 
-在 ML 中，我们提供了 `CurseforgeUtil` 类来对 Curseforge Api 进行一些基本操作
+在 ML 中，我们提供了 `CurseForgeUtil` 类来对 Curseforge Api 进行一些基本操作
 
 ::: warning
 
@@ -9,7 +9,7 @@
 :::
 
 ## 实例化工具
-要实例化 Curseforge 工具类也非常容易，详细如下所示：
+要实例化 CurseForge 工具类也非常容易，详细如下所示：
 
 ```C#
 
@@ -21,7 +21,7 @@ CurseForgeUtil util = new("你的 API Key");
 在完成了实例化后，您就可以正式使用了，首先，我将为你叙述 ML 的操作逻辑，搜索方法共有5种，分别用来搜索模组、
 资源包、整合包以及地图，它们都使用 `SearchResourceAsync` 这个基础搜索方法来进行简化搜索操作.
 
-下表列出的是 `CurseforgeUtil` 的所有方法
+下表列出的是 `CurseForgeUtil` 的所有方法
 
 |方法名|说明|
 |:------:|:----:|
