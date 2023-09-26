@@ -53,7 +53,7 @@ installer.ProgressChanged += (_, x) => {
 var result = await installer.InstallAsync();
 
 if (result.Success) {
-    Console.WriteLine($"游戏核心 {res.GameCore.Id} 安装成功");
+    Console.WriteLine($"游戏核心 {result.GameCore.Id} 安装成功");
 }
 
 ```
