@@ -89,7 +89,7 @@ JavaMinecraftLauncher(LaunchConfig launchSetting, GameCoreUtil gameCoreUtil);
     ```C#
     await Task.Run(() =>
     {
-    using var res = await jcl.LaunchTaskAsync("你要启动的游戏Id");
+    using var res = await jml.LaunchTaskAsync("你要启动的游戏Id");
     });
     ```
 
