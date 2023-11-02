@@ -12,8 +12,8 @@ YggdrasilAuthenticator(bool isLittleSkin, string email, string password)
 |参数名|说明|
 |:------:|:----:|
 |uri | 验证服务器地址 |
-|email | 账户邮件 |
-|password | 账户密码 |
+|email | 用户账户邮件 |
+|password | 用户账户密码 |
 |isLittleSkin | 是否直接使用 LittleSkin 验证服务器 |
 
 - 初始化代码示例
