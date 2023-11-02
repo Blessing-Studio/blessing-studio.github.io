@@ -69,6 +69,8 @@ Debug.WriteLine("你的Java数量为：" + JavaList.Count());
 
 ### GetJavaInfo(string)
 
+#### 用法
+
 这个方法需要一个字符串：string，也就是说你需要提供javaw.exe可执行文件的路径。
 执行这个方法后，它会返回一个类型为JavaInfo的对象，这个对象包含了 Java 的版本，位数等信息，你可以在GetJavas的用法中找到JavaInfo的使用方法。
 
