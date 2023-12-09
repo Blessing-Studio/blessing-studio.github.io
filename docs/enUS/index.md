@@ -10,10 +10,10 @@ hero:
   tagline: (WIP)
   actions:
     - theme: brand
-      text: Start
+      text: Quick Start
       link: enUS/introduce
     - theme: alt
-      text: Github
+      text: GitHub
       link: https://github.com/Blessing-Studio
 
 features:

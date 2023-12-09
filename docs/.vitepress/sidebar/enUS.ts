@@ -2,11 +2,11 @@ import { DefaultTheme } from "vitepress";
 
 export const sidebar: DefaultTheme.SidebarItem[] = [ 
     {
-        text: "指南",
+        text: "Introduction",
         collapsed: false,
         items: [
-            {text: "主页", link: "/"},
-            {text: "我们的团队", link: '/zhCN/introduce'}
+            {text: "Home", link: "/"},
+            {text: "Our Team", link: '/zhCN/introduce'}
         ]
     },
     {
