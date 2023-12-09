@@ -12,7 +12,7 @@ const members = [
   {
     avatar: 'https://avatars.githubusercontent.com/u/99802662?v=4',
     name: 'YangSpring114',
-    title: '创建者',
+    title: 'The Creator',
     links: [
       { icon: 'github', link: 'https://github.com/YangSpring114' }
     ]
@@ -20,7 +20,7 @@ const members = [
   {
     avatar: 'https://github.com/Starcloudsea.png',
     name: 'Starcloudsea',
-    title: '宣传组',
+    title: 'Publicity',
     links: [
       { icon: 'github', link: 'https://github.com/Starcloudsea' }
     ]
@@ -28,7 +28,7 @@ const members = [
   {
     avatar: 'https://github.com/JWJUN233233.png',
     name: 'JWJUN233233',
-    title: '程序组',
+    title: 'Programming',
     links: [
       { icon: 'github', link: 'https://github.com/JWJUN233233' }
     ]
@@ -36,7 +36,7 @@ const members = [
   {
     avatar: 'https://github.com/mailset.png',
     name: 'mailset',
-    title: '程序组',
+    title: 'Programming',
     links: [
       { icon: 'github', link: 'https://github.com/mailset' }
     ]
@@ -44,7 +44,7 @@ const members = [
   {
     avatar: 'https://github.com/Px2uRo.png',
     name: 'Px2uRo',
-    title: '程序组',
+    title: 'Programming',
     links: [
       { icon: 'github', link: 'https://github.com/Px2uRo' }
     ]
@@ -52,7 +52,7 @@ const members = [
   {
     avatar: 'https://github.com/dream0090.png',
     name: 'dream_pep',
-    title: '设计组',
+    title: 'Design',
     links: [
       { icon: 'github', link: 'https://github.com/dream0090' }
     ]
@@ -60,15 +60,15 @@ const members = [
   {
     avatar: 'https://github.com/JustRainy.png',
     name: 'JustRainy',
-    title: '设计组',
+    title: 'Design',
     links: [
       { icon: 'github', link: 'https://github.com/JustRainy' }
     ]
   },
   {
     avatar: 'https://github.com/ruattd.png',
-    name: '任天天🍰',
-    title: '质量控制组',
+    name: 'ruattd',
+    title: 'QC',
     links: [
       { icon: 'github', link: 'https://github.com/ruattd' }
     ]
@@ -76,7 +76,7 @@ const members = [
   {
     avatar: 'https://github.com/JustRainy.png',
     name: 'КРАШ-2073',
-    title: '质量控制组',
+    title: 'QC',
     links: [
       { icon: 'github', link: 'https://github.com/JustRainy' }
     ]
@@ -88,10 +88,10 @@ const members = [
 <VPTeamPage>
   <VPTeamPageTitle>
     <template #title>
-      我们的团队
+      Our Team
     </template>
     <template #lead>
-        我们是一群热爱 Minecraft 的学生，我们主要从事 Minecraft 启动器的开发和维护，致力于为玩家提供稳定、安全、便捷的工具！
+        We are a group of students who love Minecraft. We are mainly engaged in the development and maintenance of Minecraft launcher, committed to providing stable, safe and convenient tools for players.
     </template>
   </VPTeamPageTitle>
   <VPTeamMembers
