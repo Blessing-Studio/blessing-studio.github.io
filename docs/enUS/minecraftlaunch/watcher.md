@@ -1,13 +1,13 @@
-# 监视器
-ML 集成了游戏核心监视器以实时检测游戏文件的变动
+# Watcher
+ML integrates game cores watcher to detect game file changes in real time
 
-## 使用方法
+## Usage
 
 ```C#
 
 GameCoresWatcher watcher = new(".minecraft");
 watcher.GameCoresChanged += (_, x) => {
-    //游戏核心变动时将执行里面的代码块
+    // Will be excuted after the game core changed
 }
 
 watcher.StartWatch();
