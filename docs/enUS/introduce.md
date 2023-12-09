@@ -20,7 +20,7 @@ const members = [
   {
     avatar: 'https://github.com/Starcloudsea.png',
     name: 'Starcloudsea',
-    title: 'UI 审查',
+    title: '宣传组',
     links: [
       { icon: 'github', link: 'https://github.com/Starcloudsea' }
     ]
@@ -28,7 +28,7 @@ const members = [
   {
     avatar: 'https://github.com/JWJUN233233.png',
     name: 'JWJUN233233',
-    title: '后端开发',
+    title: '程序组',
     links: [
       { icon: 'github', link: 'https://github.com/JWJUN233233' }
     ]
@@ -36,35 +36,51 @@ const members = [
   {
     avatar: 'https://github.com/mailset.png',
     name: 'mailset',
-    title: '后端开发，Linux 版本维护',
+    title: '程序组',
     links: [
       { icon: 'github', link: 'https://github.com/mailset' }
     ]
   },
   {
-    avatar: 'https://github.com/NingLiu1998.png',
-    name: '宁骑',
-    title: 'Web 开发',
-    links: [
-      { icon: 'github', link: 'https://github.com/NingLiu1998' }
-    ]
-  },
-  {
     avatar: 'https://github.com/Px2uRo.png',
     name: 'Px2uRo',
-    title: 'Mod 程序',
+    title: '程序组',
     links: [
       { icon: 'github', link: 'https://github.com/Px2uRo' }
     ]
   },
   {
+    avatar: 'https://github.com/dream0090.png',
+    name: 'dream_pep',
+    title: '设计组',
+    links: [
+      { icon: 'github', link: 'https://github.com/dream0090' }
+    ]
+  },
+  {
     avatar: 'https://github.com/JustRainy.png',
     name: 'JustRainy',
-    title: 'Mod 美术',
+    title: '设计组',
     links: [
       { icon: 'github', link: 'https://github.com/JustRainy' }
     ]
-  }
+  },
+  {
+    avatar: 'https://github.com/ruattd.png',
+    name: '任天天🍰',
+    title: '质量控制组',
+    links: [
+      { icon: 'github', link: 'https://github.com/ruattd' }
+    ]
+  },
+  {
+    avatar: 'https://github.com/JustRainy.png',
+    name: 'КРАШ-2073',
+    title: '质量控制组',
+    links: [
+      { icon: 'github', link: 'https://github.com/JustRainy' }
+    ]
+  },
 ];
 
 </script>
@@ -75,7 +91,7 @@ const members = [
       我们的团队
     </template>
     <template #lead>
-        我们是一个独立的由几人组成的工作室，我们基本是一群学生党，本着不马虎、实事求是的精神努力为大家制作更精良的工具！
+        我们是一群热爱 Minecraft 的学生，我们主要从事 Minecraft 启动器的开发和维护，致力于为玩家提供稳定、安全、便捷的工具！
     </template>
   </VPTeamPageTitle>
   <VPTeamMembers
