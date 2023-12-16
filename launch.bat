@@ -1,1 +1,1 @@
-npm run docs:dev
+yarn docs:dev
