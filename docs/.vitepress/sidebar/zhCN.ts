@@ -10,7 +10,7 @@ export const sidebar: DefaultTheme.SidebarItem[] = [
         ]
     },
     {
-        text: "minecraftlaunch",
+        text: "MinecraftLaunch",
         collapsed: false,
         items: [
             {text: "简介", link: "/zhCN/minecraftlaunch/"},

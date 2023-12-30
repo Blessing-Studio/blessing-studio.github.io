@@ -74,11 +74,11 @@ const members = [
     ]
   },
   {
-    avatar: 'https://github.com/JustRainy.png',
+    avatar: 'https://github.com/tsavpyn.png',
     name: 'КРАШ-2073',
     title: '质量控制组',
     links: [
-      { icon: 'github', link: 'https://github.com/JustRainy' }
+      { icon: 'github', link: 'https://github.com/tsavpyn' }
     ]
   },
 ];

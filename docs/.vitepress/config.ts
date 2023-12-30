@@ -2,13 +2,9 @@ import { defineConfig } from 'vitepress'
 import { zhConfig } from './zhCN'
 import { enConfig } from './enUS'
 
-// import { withPwa } from '@vite-pwa/vitepress'
-import Container from 'markdown-it-container'
-import Token from 'markdown-it/lib/token'
-
 export default // withPwa(
 defineConfig({
-  title: '终端档案库',
+  title: 'BSTA',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
   ],
