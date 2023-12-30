@@ -19,7 +19,7 @@ export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
         returnToTopLabel: '返回顶部',
 
         editLink: {
-            pattern: `https://github.com/Blessing-Studio/blessing-studio.github.io/docs/edit/main/:path`,
+            pattern: `https://github.com/Blessing-Studio/blessing-studio.github.io/edit/master/docs/:path`,
             text: '在 GitHub 上编辑此页',
         },
 
