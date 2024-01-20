@@ -7,5 +7,11 @@ MinecraftLaunch 是一个由祝福工作室-ML开发组开发的全能高效化�
 
 :::
 
+::: warning
+
+此文档的讲义只适配 `3.0.0-pre1` 及其以上的的版本，以下的版本均已弃用！
+
+:::
+
 ## 项目地址
 [Github - MinecraftLaunch](https://github.com/Blessing-Studio/MinecraftLaunch)

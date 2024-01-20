@@ -2,87 +2,73 @@
 
 微软验证器提供给用于 Minecraft 正版的用户，允许进入正版验证的服务器
 
-## 初始化验证器
 
-``` C#
-MicrosoftAuthenticator = new(AuthType)
-{
-    ClientID
-};
-```
+## 参数详解
 
-|   参数名    |         说明         |
+|   参数名    |         说明        |
 |:--------:|:------------------:|
-| AuthType |        验证类型        |
-| ClientId | 在 Azure 中获取的 AppID |
+| account  |        微软账户信息     |
+| clientId | 在 Azure 中获取的 AppID |
 
 - 初始化代码示例
 
 ``` C#
+//构造方法一 适用于设备流验证
+MicrosoftAuthenticator authenticator = new("Your Client ID");
 
-MicrosoftAuthenticator authenticator = new(MinecraftOAuth.Module.Enum.AuthType.Access)
-{
-    ClientId = "Your Client ID"
-};
+//构造方法一 适用于刷新验证
+MicrosoftAccount account;//此处的Account是你的旧的微软账户信息
+MicrosoftAuthenticator authenticator = new(account);
 ```
 
-## 获取验证代码
+除此之外，验证器还提供了一个 'IsCheckOwnership' 属性用于确定是否检查游戏所有权
+
+
+## 获取验证代码以及 Microsoft 访问令牌
 在初始化完毕后即可获取验证代码
 
 - 代码示例
 
 ``` C#
 
-var deviceInfo = await authenticator.GetDeviceInfo();
-Console.WriteLine(deviceInfo.UserCode);
-
-```
-
-## 获取 Microsoft 访问令牌
-在获取验证验证代码后，即可获取 Microsoft 访问令牌
-
-- 代码示例
-
-``` C#
-
-var token = await authenticator.GetTokenResponse(deviceInfo);
-
-```
-
-## 验证
-在获取访问令牌后即可开始验证步骤，微软验证器只有 'AuthAsync' 方法
-
-- 代码示例
-
-``` C#
-
-var userProfile = await authenticator.AuthAsync((a) =>
-{
-    Console.WriteLine(a);
+await authenticator.DeviceFlowAuthAsync(dc => {
+    //在获取到一次性代码后要执行的代码
 });
 
 ```
 
-在上述示例中，'AsyncAuth' 方法的返回值便是构建好的账户信息类，可以直接用于启动游戏
+
+## 验证
+在获取访问令牌后即可开始验证步骤
+
+- 代码示例
+
+``` C#
+
+var userProfile = await authenticator.AuthenticateAsync();
+
+```
+
+在上述示例中，'AuthenticateAsync' 方法的返回值便是构建好的账户信息类，可以直接用于启动游戏
 
 ## 完整示例
 
 - 代码示例
 
 ``` C#
-
-MicrosoftAuthenticator authenticator = new(MinecraftOAuth.Module.Enum.AuthType.Access)
-{
-    ClientId = "Your Client ID"
-};
-var deviceInfo = await authenticator.GetDeviceInfo();
-Console.WriteLine(deviceInfo.UserCode);
-var token = await authenticator.GetTokenResponse(deviceInfo);
-var userProfile = await authenticator.AuthAsync((a) =>
-{
-    Console.WriteLine(a);
+//设备流验证
+MicrosoftAuthenticator authenticator = new("Your Client ID");
+await authenticator.DeviceFlowAuthAsync(dc => {
+    //在获取到一次性代码后要执行的代码
+    Console.WriteLine(dc.UserCode);
 });
 
+var userProfile = await authenticator.AuthenticateAsync();
+
+
+//刷新验证
+MicrosoftAuthenticator authenticator = new(account);//account为你的旧的微软账户信息
+var userProfile = await authenticator.AuthenticateAsync();
 ```
 
 ::: tip
