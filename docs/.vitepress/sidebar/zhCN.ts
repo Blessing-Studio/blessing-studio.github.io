@@ -18,7 +18,7 @@ export const sidebar: DefaultTheme.SidebarItem[] = [
             { text: '启动器', link: '/zhCN/minecraftlaunch/launcher' },
             {
                 text: "解析器",
-                link: "/zhCN/projbobcat/resolvers/",
+                link: "/zhCN/minecraftlaunch/resolvers/",
                 items: [
                     {text: "游戏档案解析器", link: "/zhCN/minecraftlaunch/resolvers/"},
                     {text: "账户档案解析器", link: "/zhCN/minecraftlaunch/resolvers/"}
@@ -39,10 +39,10 @@ export const sidebar: DefaultTheme.SidebarItem[] = [
                 collapsed: false,
                 link: "/zhCN/minecraftlaunch/installers/",
                 items: [
-                    {text: "Fabric 安装器", link: "/zhCN/minecraftlaunch/installers/fabric"},
                     {text: "Forge 安装器", link: "/zhCN/minecraftlaunch/installers/forge"},
-                    {text: "Optifine 安装器", link: "/zhCN/minecraftlaunch/installers/optifine"},
-                    {text: "Quilt 安装器", link: "/zhCN/minecraftlaunch/installers/quilt"}
+                    {text: "Fabric 安装器", link: "/zhCN/minecraftlaunch/installers/fabric"},
+                    {text: "Quilt 安装器", link: "/zhCN/minecraftlaunch/installers/quilt"},
+                    {text: "Optifine 安装器", link: "/zhCN/minecraftlaunch/installers/optifine"}
                 ]
             },
             {
@@ -55,8 +55,9 @@ export const sidebar: DefaultTheme.SidebarItem[] = [
             {
                 text: "搜寻器",
                 collapsed: false,
-                link: "/zhCN/minecraftlaunch/fetcher/",
+                link: "/zhCN/minecraftlaunch/fetchers/",
                 items: [
+                    {text: "Java 搜寻器", link: "/zhCN/minecraftlaunch/fetchers/java"},
                 ]
             },
         ]
