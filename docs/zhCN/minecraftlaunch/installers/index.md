@@ -21,15 +21,13 @@ ML 所有的 `加载器安装器`（比如 Forge、Fabric 等）会在安装前�
 |Java |  ✅ |
 
 ## 下载源切换
-ML提供了 APIManager 类用于管理所有游戏下载组件的下载源,您可以通过更改 Current 字段来更改下载源，示例如下
+ML 为每个安装器的构造方法提供了一个 `MirrorDownloadSource` 类型参数，不填写则为默认源，内置的镜像源位于 `MirrorDownloadManager` 里，以下是使用案例：
 
-``` C#
-//切换下载源至官方
-APIManager.Current = APIManager.Mojang;
-
-//切换下载源至 BMCLAPI
-APIManager.Current = APIManager.Bmcl;
-
-//切换下载源至 MCBBS
-APIManager.Current = APIManager.Mcbbs;
+```C#
+var bmclSource = MirrorDownloadManager.Bmcl;
+var mcbbsSource = MirrorDownloadManager.Mcbbs;
 ```
+
+::: warning
+ML 默认不启用镜像源，在未启用的状态下，即使你给安装器指定了镜像源也不会生效，需要将 `MirrorDownloadManager` 的 `IsUseMirrorDownloadSource` 改为 true 才行。
+:::
