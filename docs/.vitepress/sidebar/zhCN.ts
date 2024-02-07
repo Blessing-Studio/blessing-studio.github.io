@@ -39,6 +39,7 @@ export const sidebar: DefaultTheme.SidebarItem[] = [
                 collapsed: false,
                 link: "/zhCN/minecraftlaunch/installers/",
                 items: [
+                    {text: "Vanllia 安装器", link: "/zhCN/minecraftlaunch/installers/vanllia"},
                     {text: "Forge 安装器", link: "/zhCN/minecraftlaunch/installers/forge"},
                     {text: "Fabric 安装器", link: "/zhCN/minecraftlaunch/installers/fabric"},
                     {text: "Quilt 安装器", link: "/zhCN/minecraftlaunch/installers/quilt"},
