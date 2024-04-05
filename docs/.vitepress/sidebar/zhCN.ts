@@ -5,7 +5,7 @@ export const sidebar: DefaultTheme.SidebarItem[] = [
         text: "指南",
         collapsed: false,
         items: [
-            {text: "主页", link: "/"},
+            {text: "主页", link: "/zhCN/"},
             {text: "我们的团队", link: '/zhCN/introduce'}
         ]
     },
@@ -59,6 +59,7 @@ export const sidebar: DefaultTheme.SidebarItem[] = [
                 link: "/zhCN/minecraftlaunch/fetchers/",
                 items: [
                     {text: "Java 搜寻器", link: "/zhCN/minecraftlaunch/fetchers/java"},
+                    {text: "Curseforge 搜寻器", link: "/zhCN/minecraftlaunch/fetchers/curseforge"},
                 ]
             },
         ]
