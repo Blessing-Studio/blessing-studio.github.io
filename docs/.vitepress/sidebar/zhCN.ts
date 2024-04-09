@@ -49,8 +49,9 @@ export const sidebar: DefaultTheme.SidebarItem[] = [
             {
                 text: "检查器",
                 collapsed: false,
-                link: "/zhCN/minecraftlaunch/checks/",
+                link: "/zhCN/minecraftlaunch/checkers/",
                 items: [
+                    {text: "游戏资源检查器", link: "/zhCN/minecraftlaunch/checkers/resource"},
                 ]
             },
             {
