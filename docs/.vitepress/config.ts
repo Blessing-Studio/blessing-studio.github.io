@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress'
-import { zhConfig } from './zhCN'
-import { enConfig } from './enUS'
+import { zhConfig } from './zh_CN'
+import { enConfig } from './en_US'
 
 export default // withPwa(
 defineConfig({
@@ -10,9 +10,9 @@ defineConfig({
   ],
 
   locales: {
-    root: { label: '简体中文', lang: 'zh-CN', link: '/zhCN/', ...zhConfig },
-    ruRU: { label: 'Русский', lang: 'ru-RU', link: '/ruRU/' },
-    enUS: { label: 'English(US)', lang: 'en-US', link: '/enUS/', ...enConfig },
+    root: { label: '简体中文', lang: 'zh-CN', link: '/zh_CN/', ...zhConfig },
+    ruRU: { label: 'Русский', lang: 'ru-RU', link: '/ru_RU/' },
+    enUS: { label: 'English(US)', lang: 'en-US', link: '/en_US/', ...enConfig },
   }
 
   // markdown: {
@@ -138,4 +138,3 @@ defineConfig({
   //   // searchMaxSuggestoins: 10,
   // }
 })
-// )
