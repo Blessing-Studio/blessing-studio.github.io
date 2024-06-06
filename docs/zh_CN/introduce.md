@@ -81,6 +81,14 @@ const members = [
       { icon: 'github', link: 'https://github.com/tsavpyn' }
     ]
   },
+  {
+    avatar: 'https://github.com/FTS427.png',
+    name: 'Huang FTS427',
+    title: '质量控制组',
+    links: [
+      { icon: 'github', link: 'https://github.com/FTS427' }
+    ]
+  },
 ];
 
 </script>
