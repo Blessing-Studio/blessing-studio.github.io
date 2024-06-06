@@ -81,14 +81,6 @@ const members = [
       { icon: 'github', link: 'https://github.com/JustRainy' }
     ]
   },
-  {
-    avatar: 'https://github.com/FTS427.png',
-    name: 'Huang FTS427',
-    title: 'QC',
-    links: [
-      { icon: 'github', link: 'https://github.com/FTS427' }
-    ]
-  },
 ];
 
 </script>
