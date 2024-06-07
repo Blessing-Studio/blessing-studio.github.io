@@ -54,3 +54,51 @@ WonderLab 是一个跨平台 Minecraft 启动器，支持自动更新、Modrinth
 
 [爱发电](https://afdian.net/a/bangbang93)
 [GitHub](https://github.com/bangbang93)
+
+## 开发团队
+
+### [Xilu](https://baka_hs.gitee.io/xilu-baka/)
+
+一个平平无奇的 C# 程序设计爱好者，平时喜欢整有用的以及没用的烂活
+
+[GitHub](https://github.com/YangSpring114)
+[Bilibili](https://space.bilibili.com/1098028524?spm_id_from=333.999.0.0)
+[爱发电](https://afdian.net/a/WonderLab)
+
+### Ddggdd135
+
+一个喜欢编程的学生, Minecraft肝帝, C#爱好者
+
+[GitHub](https://github.com/JWJUN233233)
+[Bilibili](https://space.bilibili.com/1049351987)
+
+### Starcloudsea
+
+啥活都想整的没脑子C#编程爱好者和视频创作者
+
+正在创作: BadMcen Launcher
+
+[GitHub](https://github.com/Starcloudsea)
+[Bilibili](https://space.bilibili.com/2123349162?spm_id_from=333.1007.0.0)
+[爱发电](https://afdian.net/a/Starcloudsea)
+
+### [mail_set](https://blogs.mailset.top)
+
+一个热爱Linux的Arch使用者（虽然打游戏还是会用Windows）
+
+[Github](https://github.com/mailset)
+[Bilibili](https://space.bilibili.com/435654748)
+[Blog](https://blogs.mailset.top)
+
+### dream_pep
+
+一个奇怪的UI设计师，经常忘记修UI文件（bushi）
+
+[Github](https://github.com/dream0090)
+[Page](https://serverhub.cc)
+
+### [Huang FTS427](https://github.com/FTS427)
+
+现 `WonderLab` 的 `AUR` 包维护者， `archlinux` 用户
+
+[Website](https://www.fts427.top/)

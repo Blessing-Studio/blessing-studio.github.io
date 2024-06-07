@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Quick Start
-      link: enUS/introduce
+      link: en_US/introduce
     - theme: alt
       text: GitHub
       link: https://github.com/Blessing-Studio
