@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: 快速上手
-      link: zhCN/introduce
+      link: zh_CN/introduce
     - theme: alt
       text: Github
       link: https://github.com/Blessing-Studio
