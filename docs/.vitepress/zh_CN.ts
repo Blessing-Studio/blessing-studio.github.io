@@ -1,5 +1,5 @@
-import nav from "./navBar/zhCN";
-import { sidebar } from "./sidebar/zhCN";
+import nav from "./navBar/zh_CN";
+import { sidebar } from "./sidebar/zh_CN";
 import { DefaultTheme, LocaleSpecificConfig } from "vitepress";
 
 export const zhConfig: LocaleSpecificConfig<DefaultTheme.Config> = {

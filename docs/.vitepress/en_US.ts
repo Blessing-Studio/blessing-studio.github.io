@@ -1,5 +1,5 @@
-import nav from "./navBar/enUS";
-import { sidebar } from "./sidebar/enUS";
+import nav from "./navBar/en_US";
+import { sidebar } from "./sidebar/en_US";
 import { DefaultTheme, LocaleSpecificConfig } from "vitepress";
 
 export const enConfig: LocaleSpecificConfig<DefaultTheme.Config> = {
