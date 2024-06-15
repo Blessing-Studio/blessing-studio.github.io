@@ -69,8 +69,7 @@ export const sidebar: DefaultTheme.SidebarItem[] = [
         text: "WonderLab",
         collapsed: false,
         items: [
-            {text: "引入", link: "/zh_CN/wonderlab/index"},
-            {text: "介绍", link: "/zh_CN/wonderlab/intro"},
+            {text: "介绍", link: "/zh_CN/wonderlab/index"},
             {text: "分支版本", link: "/zh_CN/wonderlab/branch_info"},
             {text: "安装", link: "/zh_CN/wonderlab/install"},
             {text: "常见问题", link: "/zh_CN/wonderlab/questions"}
