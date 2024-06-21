@@ -34,7 +34,7 @@
 
 ## Linux 平台
 
-Debian 系安装 
+Debian 系安装
 
 ```bash
 apt install WonderLab打包好的deb文件
@@ -50,14 +50,15 @@ Arch 系安装
 > 请先确保您已经添加了 `AUR` 仓库，参考[这里](https://mirrors.tuna.tsinghua.edu.cn/help/archlinuxcn/)
 
 master
+
 ```zsh
 paru -S wonderlab-appimage
 ```
 
 feature
+
 ```zsh
 paru -S wonderlab-appimage-feature
 ```
 
 ## Mac 平台
-
