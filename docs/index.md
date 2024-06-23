@@ -2,7 +2,7 @@
 layout: home
 
 title: 终端档案库
-titleTemplate: 用代码表达言语的魅力，用代码书写山河的壮丽。
+titleTemplate: 启星世界，书写代码山河
 
 hero:
   name: TA
@@ -13,7 +13,10 @@ hero:
       text: 快速上手
       link: zh_CN/introduce
     - theme: alt
-      text: Github
+      text: 工作室官网
+      link: https://blessing-studio.cn
+    - theme: alt
+      text: Github仓库
       link: https://github.com/Blessing-Studio
 
 features:
