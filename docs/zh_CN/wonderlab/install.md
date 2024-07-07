@@ -42,9 +42,7 @@ apt install WonderLab打包好的deb文件
 
 RedHat 系安装
 
-```bash
-
-```
+下载自己需要的 rpm 包，根据自己的 RedHat 系发行版的软件包管理器进行安装
 
 Arch 系安装
 > 请先确保您已经添加了 `AUR` 仓库，参考[这里](https://mirrors.tuna.tsinghua.edu.cn/help/archlinuxcn/)
