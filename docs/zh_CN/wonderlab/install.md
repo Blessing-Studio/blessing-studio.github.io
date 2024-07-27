@@ -20,11 +20,8 @@
 
 | 系统 | 打包结果名称 | 注释 |
 | ---- | ------------ | ---- |
-| Windows   | WonderLab.`版本号`.win.-`架构`.installer.exe | 安装文件 |
 | Windows   | WonderLab.Desktop.`版本号`.linux-`架构`.zip          | zip压缩文件 |
-| Linux通用 | WonderLab.`版本号`.linux-`架构`.AppImage     | AppImage可执行文件 |
-| Debian系  | WonderLab.Desktop.`版本号`.linux-`架构`.deb          | deb安装文件 |
-| RedHat系  | WonderLab.Desktop.`版本号`.linux-`架构`.rpm          | rpm安装文件 |
+| Linux | WonderLab.`版本号`.linux-`架构`.AppImage     | AppImage可执行文件 |
 | Mac OS    | WonderLab.Desktop.`版本号`.osx.-`架构`.zip           | zip压缩文件 |
 | Mac OS    | WonderLab.Desktop.`版本号`.osx.app.-`架构`.zip       | app应用程序 |
 
@@ -34,17 +31,17 @@
 
 ## Linux 平台
 
-Debian 系安装
+下载所需要的 `AppImage` 可执行文件
 
-```bash
-apt install WonderLab打包好的deb文件
+增加 `AppImage` 文件的可执行权
+
+```zsh
+chmod +x AppImage的路径
 ```
 
-RedHat 系安装
+然后在终端中输入 AppImage 的路径即可打开
 
-下载自己需要的 rpm 包，根据自己的 RedHat 系发行版的软件包管理器进行安装
-
-Arch 系安装
+Arch Linux 系安装
 > 请先确保您已经添加了 `AUR` 仓库，参考[这里](https://mirrors.tuna.tsinghua.edu.cn/help/archlinuxcn/)
 
 master
