@@ -13,17 +13,16 @@
 | Linux通用 | wonderlab.`版本号`.linux-`架构`.AppImage     | AppImage可执行文件 |
 | Debian系  | wonderlab.`版本号`.linux-`架构`.deb          | deb安装文件 |
 | RedHat系  | wonderlab.`版本号`.linux-`架构`.rpm          | rpm安装文件 |
-| Mac OS    | wonderlab.`版本号`.osx.-`架构`.zip           | zip压缩文件 |
-| Mac OS    | wonderlab.`版本号`.osx.app.-`架构`.zip       | app应用程序 |
+| Mac OS    | wonderlab.`版本号`.osx-`架构`.zip           | zip压缩文件 |
+| Mac OS    | wonderlab.`版本号`.osx.app-`架构`.zip       | app应用程序 |
 
 ### feature 分支 - 测试渠道
 
 | 系统 | 打包结果名称 | 注释 |
 | ---- | ------------ | ---- |
-| Windows   | WonderLab.Desktop.`版本号`.linux-`架构`.zip          | zip压缩文件 |
-| Linux | WonderLab.`版本号`.linux-`架构`.AppImage     | AppImage可执行文件 |
-| Mac OS    | WonderLab.Desktop.`版本号`.osx.-`架构`.zip           | zip压缩文件 |
-| Mac OS    | WonderLab.Desktop.`版本号`.osx.app.-`架构`.zip       | app应用程序 |
+| Windows | WonderLab.`版本号`.linux-`架构`.zip          | zip压缩文件 |
+| Linux   | WonderLab.`版本号`.linux-`架构`.AppImage     | AppImage可执行文件 |
+| Mac OS  | WonderLab.`版本号`.osx-`架构`.zip           | zip压缩文件 |
 
 ## Windows 平台
 
