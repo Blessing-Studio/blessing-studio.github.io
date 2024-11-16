@@ -13,12 +13,12 @@
 
 ```C#
 
-CurseForgeUtil util = new("你的 API Key");
+CurseForgeUtil util = new("您的 API Key");
 
 ```
 
 ## 基本信息
-在完成了实例化后，您就可以正式使用了，首先，我将为你叙述 ML 的操作逻辑，搜索方法共有5种，分别用来搜索模组、
+在完成了实例化后，您就可以正式使用了，首先，我将为您叙述 ML 的操作逻辑，搜索方法共有5种，分别用来搜索模组、
 资源包、整合包以及地图，它们都使用 `SearchResourceAsync` 这个基础搜索方法来进行简化搜索操作.
 
 下表列出的是 `CurseForgeUtil` 的所有方法

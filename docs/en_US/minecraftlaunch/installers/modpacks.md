@@ -4,7 +4,7 @@
 # CurseForge 整合包安装器
 
 ::: tip
-在 ML 中我们，提供了针对 CurseForge 格式整合包的安装器，与其它安装器不一样的是，此安装器不提供游戏核心的自动安装，也就是需要你提前手动安装好游戏核心
+在 ML 中我们，提供了针对 CurseForge 格式整合包的安装器，与其它安装器不一样的是，此安装器不提供游戏核心的自动安装，也就是需要您提前手动安装好游戏核心
 :::
 
 :::info
@@ -29,7 +29,7 @@ ModsPacksInstaller(string modPacksPath, string gamePath, string apiKey, string g
 |:------:|:----:|
 |modPacksPath | 整合包压缩文件  |
 |gamePath |要保存的游戏目录 |
-|apiKey | 你的apikey |
+|apiKey | 您的apikey |
 |gameid | 游戏名，不填默认整合包的名字 |
 
 ## 开始安装

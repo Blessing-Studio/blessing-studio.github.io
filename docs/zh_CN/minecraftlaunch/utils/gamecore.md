@@ -23,7 +23,7 @@ GameCoreUtil(DirectoryInfo root);
 
 ## 基本信息
 
-在完成了实例化后，您就可以正式使用了，首先，我将为你叙述 ML 的操作逻辑，共有6种操作游戏核心的方法
+在完成了实例化后，您就可以正式使用了，首先，我将为您叙述 ML 的操作逻辑，共有6种操作游戏核心的方法
 
 下表列出的是 `GameCoreUtil` 的所有方法：
 |方法名|说明|
@@ -46,7 +46,7 @@ GameCoreUtil(DirectoryInfo root);
 
 + 代码示例
     ```C#
-    var core = gcu.ReName("游戏核心原名", "你要修改的名字");
+    var core = gcu.ReName("游戏核心原名", "您要修改的名字");
     ```
 
 ### GetGameCore

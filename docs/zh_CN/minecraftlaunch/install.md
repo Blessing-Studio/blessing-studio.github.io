@@ -1,6 +1,6 @@
 # 安装
 
-在正式使用 ML 之前，你必须先安装 ML 的 NuGet 包（这不废话吗）
+在正式使用 ML 之前，您必须先安装 ML 的 NuGet 包（这不废话吗）
 - 直接在 Visual Studio 或 Rider 的包管理器里搜索 MinecraftLaunch 并安装即可
 
 ## 运行时要求

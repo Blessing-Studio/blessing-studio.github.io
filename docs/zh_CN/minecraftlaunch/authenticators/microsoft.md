@@ -17,7 +17,7 @@
 MicrosoftAuthenticator authenticator = new("Your Client ID");
 
 //构造方法一 适用于刷新验证
-MicrosoftAccount account;//此处的Account是你的旧的微软账户信息
+MicrosoftAccount account;//此处的Account是您的旧的微软账户信息
 MicrosoftAuthenticator authenticator = new(account);
 ```
 
@@ -67,12 +67,12 @@ var userProfile = await authenticator.AuthenticateAsync();
 
 
 //刷新验证
-MicrosoftAuthenticator authenticator = new(account);//account为你的旧的微软账户信息
+MicrosoftAuthenticator authenticator = new(account);//account为您的旧的微软账户信息
 var userProfile = await authenticator.AuthenticateAsync();
 ```
 
 ::: tip
 
-若出现 await 报错，请在你的方法中添加 async 关键字合理解决
+若出现 await 报错，请在您的方法中添加 async 关键字合理解决
 
 :::

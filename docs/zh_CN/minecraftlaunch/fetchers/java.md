@@ -21,11 +21,11 @@
 
 #### 讲解
 
-执行这个方法后，它会返回类型为 “IEnumerable\<JavaEntry>” 的一个列表，这个列表包含了大部分磁盘上的 Java 信息。（如果一些Java所在的位置没有被词典所收录，那么这个Java将不会搜索到。）Fetch()和FetchAsync()的区别是FetchAsync()为异步方法，Fetch()为同步方法，异步方法不会堵塞主线程，这不会导致你的应用会有短时间的卡死。
+执行这个方法后，它会返回类型为 “IEnumerable\<JavaEntry>” 的一个列表，这个列表包含了大部分磁盘上的 Java 信息。（如果一些Java所在的位置没有被词典所收录，那么这个Java将不会搜索到。）Fetch()和FetchAsync()的区别是FetchAsync()为异步方法，Fetch()为同步方法，异步方法不会堵塞主线程，这不会导致您的应用会有短时间的卡死。
 
-无需担心跨平台，这个方法可以自动识别你的应用在什么操作系统上运行，从而使用正确的方法运行。
+无需担心跨平台，这个方法可以自动识别您的应用在什么操作系统上运行，从而使用正确的方法运行。
 
-你可以通过 “JavaEntry” 类来获取 Java 的版本，位数等信息。
+您可以通过 “JavaEntry” 类来获取 Java 的版本，位数等信息。
 
 :::tip
 JavaEntry类包含的属性有：
@@ -56,7 +56,7 @@ JavaFetcher javaFetcher = new JavaFetcher();
  var JavaList = javaFetcher.Fetch();
 
  //输出
- Debug.WriteLine("你的设备总共有" + JavaList.Length + "个Java，它们是：");
+ Debug.WriteLine("您的设备总共有" + JavaList.Length + "个Java，它们是：");
 
  //遍历集合
  foreach(JavaEntry javalist in JavaList)
@@ -69,7 +69,7 @@ JavaFetcher javaFetcher = new JavaFetcher();
 
 #### 输出
 
-假设你的设备里有两个Java，它们分别为
+假设您的设备里有两个Java，它们分别为
 
 - JRE 1.8.0_391 - 32bit，放在“C:\Program Files (x86)\Java\jre1.8.0_391”里
 
@@ -78,15 +78,15 @@ JavaFetcher javaFetcher = new JavaFetcher();
 那么，这些代码应该返回：
 
 ``` 
-你的设备总共有2个Java，它们是：
+您的设备总共有2个Java，它们是：
 Java路径：C:\Program Files (x86)\Java\jre1.8.0_391\bin\javaw.exe，Java版本：1.8.0_391，是否为64位：False
 Java路径：C:\Program Files\Java\jdk-17.0.9\bin\javaw.exe，Java版本：17.0.9，是否为64位：True
 ```
 
 ### GetJavaInfo(string)
 
-这个方法需要一个字符串：string，也就是说你需要提供javaw.exe可执行文件的路径。
-执行这个方法后，它会返回一个类型为JavaEntry的对象，这个对象包含了 Java 的版本，位数等信息，你可以在GetJavas的用法中找到JavaEntry的使用方法。
+这个方法需要一个字符串：string，也就是说您需要提供javaw.exe可执行文件的路径。
+执行这个方法后，它会返回一个类型为JavaEntry的对象，这个对象包含了 Java 的版本，位数等信息，您可以在GetJavas的用法中找到JavaEntry的使用方法。
 
 #### 示例代码
 
@@ -105,7 +105,7 @@ Console.WriteLine("获取到的Java信息：" + "Java路径：" + javaEmpty.Java
 
 #### 输出
 
-假设你的电脑里有个Java，它的路径为C:\Program Files\Java\jdk-17.0.9\bin\javaw.exe，那么，这些代码应该返回：
+假设您的电脑里有个Java，它的路径为C:\Program Files\Java\jdk-17.0.9\bin\javaw.exe，那么，这些代码应该返回：
 
 ```
 获取到的Java信息：Java路径：C:\Program Files\Java\jdk-17.0.9\bin\javaw.exe，Java版本：17.0.9，是否为64位：True
@@ -115,8 +115,8 @@ Console.WriteLine("获取到的Java信息：" + "Java路径：" + javaEmpty.Java
 
 #### 讲解
 
-这个方法需要一个类型为IEnumerable\<JavaEntry>的对象，以及一个类型为GameEntry的对象，你可以在“(西路我不知道你帮我写QAQ)”找到更多关于GameCore的信息。
-这个方法会返回一个类型为JavaEntry的对象，这个对象包含了 Java 的版本，位数等信息，返回的Java适合运行提供的核心的游戏，你可以在GetJavas的用法中找到JavaEntry的使用方法。
+这个方法需要一个类型为IEnumerable\<JavaEntry>的对象，以及一个类型为GameEntry的对象，您可以在“(西路我不知道您帮我写QAQ)”找到更多关于GameCore的信息。
+这个方法会返回一个类型为JavaEntry的对象，这个对象包含了 Java 的版本，位数等信息，返回的Java适合运行提供的核心的游戏，您可以在GetJavas的用法中找到JavaEntry的使用方法。
 
 #### 示例代码
 
@@ -144,7 +144,7 @@ Console.WriteLine(Java.JavaPath + ", " + Java.JavaVersion + ", " + Java.Is64Bit)
 
 #### 输出
 
-假如你的.minecraft文件夹的路径为C:\Users\stars\AppData\Roaming\.minecraft，里面有一个版本：1.20.2-Fabric 0.15.5-OptiFine_I7_pre1，并且你的电脑有两个Java，它们分别是：
+假如您的.minecraft文件夹的路径为C:\Users\stars\AppData\Roaming\.minecraft，里面有一个版本：1.20.2-Fabric 0.15.5-OptiFine_I7_pre1，并且您的电脑有两个Java，它们分别是：
 JDK 17.0.8
 JRE 1.8.0_391
 那么，这些代码应该返回：

@@ -26,7 +26,7 @@ WonderLab 是一个跨平台 Minecraft 启动器，支持自动更新、Modrinth
 
 ## 如何安装
 
-可以在 [Releases](https://github.com/Blessing-Studio/WonderLab.Override/releases) 下载你想要的版本
+可以在 [Releases](https://github.com/Blessing-Studio/WonderLab.Override/releases) 下载您想要的版本
 
 `master` 分支 Releases 打包文件命名规则： WonderLab.Override.`版本号`.`系统`-`架构`
 
@@ -34,7 +34,7 @@ WonderLab 是一个跨平台 Minecraft 启动器，支持自动更新、Modrinth
 
 ## 反馈问题
 
-可以在本仓库的 [`Issues`](https://github.com/Blessing-Studio/WonderLab.Override/issues) 或 [`Discussion`](https://github.com/Blessing-Studio/WonderLab.Override/discussions) 中提出你的建议和疑惑
+可以在本仓库的 [`Issues`](https://github.com/Blessing-Studio/WonderLab.Override/issues) 或 [`Discussion`](https://github.com/Blessing-Studio/WonderLab.Override/discussions) 中提出您的建议和疑惑
 
 当然，您的 [`PR`](https://github.com/Blessing-Studio/WonderLab.Override/pulls) 也是受欢迎的
 
