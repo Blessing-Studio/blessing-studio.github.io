@@ -4,7 +4,7 @@
 
 
 ## 初始化
-这是在正式启动游戏前的核心步骤，如你在这个步骤出现问题，那么将无法正常启动MC
+这是在正式启动游戏前的核心步骤，如您在这个步骤出现问题，那么将无法正常启动MC
 
 而初始化启动器的方法也非常简单，我们为其提供了两个构造方法：
 
@@ -34,7 +34,7 @@ JavaMinecraftLauncher(LaunchConfig launchSetting, GameCoreUtil gameCoreUtil);
             Height = <窗口高度>,
             IsFullscreen = false
         },
-        JvmConfig = new JvmConfig("你的java路径"){
+        JvmConfig = new JvmConfig("您的java路径"){
             MaxMemory = <最大内存>,
             MinMemory = <最小内存> 
         },
@@ -48,9 +48,9 @@ JavaMinecraftLauncher(LaunchConfig launchSetting, GameCoreUtil gameCoreUtil);
     
     ```
 
-    如果你不需要太多的配置，或者嫌上面的方法太长，也可以使用下面的方法：
+    如果您不需要太多的配置，或者嫌上面的方法太长，也可以使用下面的方法：
     ```C#
-    LaunchConig lc = new(Account.Default, new("你的Java路径"), new(), new());
+    LaunchConig lc = new(Account.Default, new("您的Java路径"), new(), new());
     ```
 
 + GameCoreUtil
@@ -58,7 +58,7 @@ JavaMinecraftLauncher(LaunchConfig launchSetting, GameCoreUtil gameCoreUtil);
     <div>这是预启动时信息检查用的游戏定位器，这个参数如果填错将无法开始预启动检查，其完整的实例化演示如下：</div>
 
     ```C#
-    GameCoreUtil gcu = new("你的游戏目录"); //默认为.minecraft
+    GameCoreUtil gcu = new("您的游戏目录"); //默认为.minecraft
     ```
 
 
@@ -72,24 +72,24 @@ JavaMinecraftLauncher(LaunchConfig launchSetting, GameCoreUtil gameCoreUtil);
 初始化完成后即可开始启动步骤，使用'LaunchTaskAsync'方法
 + 代码示例
     ```C#
-    using var res = await jml.LaunchTaskAsync("你要启动的游戏Id");
+    using var res = await jml.LaunchTaskAsync("您要启动的游戏Id");
     ```
 
-如果你需要查看当前启动的进度，请使用 LaunchTaskAsync 方法的另一个重载
+如果您需要查看当前启动的进度，请使用 LaunchTaskAsync 方法的另一个重载
 + 代码示例
 
     ```C#
-    using var res = await jml.LaunchTaskAsync("你要启动的游戏Id", x =>
+    using var res = await jml.LaunchTaskAsync("您要启动的游戏Id", x =>
     {
         //在这里获取当前启动进度,利用x.Item1获取数字进度,x.Item2获取文字进度
     });
     ```
-如果你用的是WinForm、WPF、Avalonia等图形化UI，在启动时程序整个卡死，请尝试使用 Task 合理解决
+如果您用的是WinForm、WPF、Avalonia等图形化UI，在启动时程序整个卡死，请尝试使用 Task 合理解决
 + 代码示例
     ```C#
     await Task.Run(() =>
     {
-    using var res = await jml.LaunchTaskAsync("你要启动的游戏Id");
+    using var res = await jml.LaunchTaskAsync("您要启动的游戏Id");
     });
     ```
 

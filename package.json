@@ -1,9 +1,9 @@
 {
-  "name": "hitokoto-developer-docs",
+  "name": "blessing-studio-docs",
   "version": "1.0.0",
-  "description": "Hitokoto developer docs.",
+  "description": "Blessing Studio docs",
   "main": "index.js",
-  "repository": "https://source.hitokoto.cn/hitokoto/hitokoto-developer-docs.git",
+  "repository": "https://github.com/Blessing-Studio/blessing-studio.github.io.git",
   "author": "xilu",
   "license": "MIT",
   "private": true,

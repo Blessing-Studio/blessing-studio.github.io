@@ -1,5 +1,6 @@
 # MinecraftLaunch 开发文档
-MinecraftLaunch 是一个由祝福工作室-ML开发组开发的全能高效化的 Minecraft 启动核心。在这里您可以查阅到各大组件的使用教程。
+
+MinecraftLaunch 是一个由 Blessing Studio ML开发组 开发的全能高效化的 Minecraft 启动核心，在这里您可以查阅到各大组件的使用教程和范例
 
 ::: tip
 
@@ -14,4 +15,5 @@ MinecraftLaunch 是一个由祝福工作室-ML开发组开发的全能高效化�
 :::
 
 ## 项目地址
+
 [Github - MinecraftLaunch](https://github.com/Blessing-Studio/MinecraftLaunch)

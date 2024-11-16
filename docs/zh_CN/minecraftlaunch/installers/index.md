@@ -29,5 +29,5 @@ var mcbbsSource = MirrorDownloadManager.Mcbbs;
 ```
 
 ::: warning
-ML 默认不启用镜像源，在未启用的状态下，即使你给安装器指定了镜像源也不会生效，需要将 `MirrorDownloadManager` 的 `IsUseMirrorDownloadSource` 改为 true 才行。
+ML 默认不启用镜像源，在未启用的状态下，即使您给安装器指定了镜像源也不会生效，需要将 `MirrorDownloadManager` 的 `IsUseMirrorDownloadSource` 改为 true 才行。
 :::

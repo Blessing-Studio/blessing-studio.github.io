@@ -3,7 +3,7 @@
 启动器是ML的核心模块之一，其具有强大的跨平台支持，可以在Windows、MacOS、Liunx平台上启动所有版本的MC，但再好的工具也要合理的使用它，本章节将详细介绍ML的启动模块
 
 ## 初始化
-这是在正式启动游戏前的核心步骤，如你在这个步骤出现问题，那么将无法正常启动MC
+这是在正式启动游戏前的核心步骤，如您在这个步骤出现问题，那么将无法正常启动MC
 
 而初始化启动器的方法也非常简单，我们为其提供了两个构造方法：
 
@@ -44,7 +44,7 @@ Launcher(IGameResolver resolver, LaunchConfig config);
 
 + IGameResolver
 
-    这是确定游戏信息用的游戏定位器接口，你需要手动指定实例化对象为 `GameResolver` 类型，这个参数如果填错将无法启动，其完整的实例化演示如下：
+    这是确定游戏信息用的游戏定位器接口，您需要手动指定实例化对象为 `GameResolver` 类型，这个参数如果填错将无法启动，其完整的实例化演示如下：
 
     ```C#
     IGameResolver gameResolver = new GameResolver("Your game folder");
@@ -61,15 +61,15 @@ Launcher(IGameResolver resolver, LaunchConfig config);
 初始化完成后即可开始启动步骤，使用'LaunchAsync'方法
 + 代码示例
     ```C#
-     var gameProcessWatcher = await launcher.LaunchAsync("你要启动的游戏Id");
+     var gameProcessWatcher = await launcher.LaunchAsync("您要启动的游戏Id");
     ```
 
 ### 错误处理
-如果你用的是WinForm、WPF、Avalonia等图形化UI，在启动时程序整个卡死，请尝试使用 Task 合理解决
+如果您用的是WinForm、WPF、Avalonia等图形化UI，在启动时程序整个卡死，请尝试使用 Task 合理解决
 + 代码示例
     ```C#
     await Task.Run(() => {
-        var gameProcessWatcher = await launcher.LaunchAsync("你要启动的游戏Id");
+        var gameProcessWatcher = await launcher.LaunchAsync("您要启动的游戏Id");
     });
     ```
 

@@ -10,7 +10,7 @@ import {
 
 const members = [
   {
-    avatar: 'https://avatars.githubusercontent.com/u/99802662?v=4',
+    avatar: 'https://github.com/YangSpring114.png',
     name: 'YangSpring114',
     title: '创建者',
     links: [

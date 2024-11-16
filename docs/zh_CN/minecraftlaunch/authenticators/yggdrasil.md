@@ -15,7 +15,7 @@
 
 ``` C#
 //刷新验证
-YggdrasilAuthenticator authenticator = new(account);//account为你的旧的Yggdrasil账户信息
+YggdrasilAuthenticator authenticator = new(account);//account为您的旧的Yggdrasil账户信息
 
 //请求验证
 YggdrasilAuthenticator authenticator = new("Server Url", "Your Email", "Your Password");
@@ -41,7 +41,7 @@ var userProfile = await authenticator.AuthenticateAsync();
 
 ``` C#
 //刷新验证
-YggdrasilAuthenticator authenticator = new(account);//account为你的旧的Yggdrasil账户信息
+YggdrasilAuthenticator authenticator = new(account);//account为您的旧的Yggdrasil账户信息
 var userProfile = await authenticator.AuthenticateAsync();
 
 //请求验证
