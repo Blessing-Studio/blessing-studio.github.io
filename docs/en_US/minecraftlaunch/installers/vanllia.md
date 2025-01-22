@@ -1,14 +1,19 @@
 ---
 ---
 
-# Vanllia 安装器
+# Vanilla 安装器
+
+::: warning
+Due to the naming update, this document is not applicable for all ML versions prior to this [pull request](https://github.com/Blessing-Studio/MinecraftLaunch/pull/6) merge.
+If you still want to use an older version of ML, replace all `Vanilla` with `Vanllia` in the code (not recommended)
+:::
 
 ::: tip
 ML 提供了 GetGameCoresAsync 方法以获取所有 Minecraft 版本,此方法为静态方法,可不经过初始化直接调用
 :::
 
 ## 初始化安装器
-初始化 Vanllia 安装器的方式非常简单,我们为其提供了一种构造方法：
+初始化 Vanilla 安装器的方式非常简单,我们为其提供了一种构造方法：
 
 ```C#
 GameCoreInstaller(GameCoreToolkit gameCoreToolkit, string Id)
@@ -20,7 +25,7 @@ GameCoreInstaller(GameCoreToolkit gameCoreToolkit, string Id)
 |Id | 要下载的版本 Id,例如:1.19.3 1.16.5 |
 
 ## 开始安装
-在您完成安装器的初始化后，您只需要调用 Vanllia 安装器的安装方法来完成安装。
+在您完成安装器的初始化后，您只需要调用 Vanilla 安装器的安装方法来完成安装。
 
 在异步上下文中，使用 InstallAsync 来完成安装：
 ```C#

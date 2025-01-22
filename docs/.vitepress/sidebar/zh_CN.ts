@@ -5,7 +5,6 @@ export const sidebar: DefaultTheme.SidebarItem[] = [
         text: "指南",
         collapsed: false,
         items: [
-            {text: "主页", link: "/zh_CN/"},
             {text: "我们的团队", link: "/zh_CN/introduce"}
         ]
     },

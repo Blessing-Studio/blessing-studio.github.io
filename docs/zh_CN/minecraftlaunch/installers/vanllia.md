@@ -1,17 +1,22 @@
 ---
 ---
 
-# Vanllia 安装器
+# Vanilla 安装器
+
+::: warning
+由于命名更新，在[此拉取请求](https://github.com/Blessing-Studio/MinecraftLaunch/pull/6)合并前的所有ML版本均不适用此文档。
+如果你仍然想要使用旧版本ML，请将代码中所有的`Vanilla`替换为`Vanllia`.（不推荐）
+:::
 
 ::: tip
 ML 提供了 `EnumerableGameCoreAsync` 方法以获取所有 Minecraft 版本,此方法为静态方法,可不经过初始化直接调用
 :::
 
 ## 初始化安装器
-初始化 Vanllia 安装器的方式非常简单,我们为其提供了一种构造方法：
+初始化 Vanilla 安装器的方式非常简单,我们为其提供了一种构造方法：
 
 ```C#
-VanlliaInstaller(IGameResolver gameFoloder, string gameId, MirrorDownloadSource source = default)
+VanillaInstaller(IGameResolver gameFoloder, string gameId, MirrorDownloadSource source = default)
 ```
 
 |参数名|说明|
@@ -21,11 +26,11 @@ VanlliaInstaller(IGameResolver gameFoloder, string gameId, MirrorDownloadSource 
 | source | 镜像源设置  |
 
 ## 开始安装
-在您完成安装器的初始化后，您只需要调用 Vanllia 安装器的安装方法来完成安装。
+在您完成安装器的初始化后，您只需要调用 Vanilla 安装器的安装方法来完成安装。
 
 在异步上下文中，使用 InstallAsync 来完成安装：
 ```C#
-await vanlliaInstaller.InstallAsync();
+await VanillaInstaller.InstallAsync();
 ```
 
 ::: info
@@ -36,7 +41,7 @@ await vanlliaInstaller.InstallAsync();
 正常情况下，安装器会花费数分钟来下载游戏的支持库，您可以通过 `ProgressChanged` 事件获取当前下载进度，您只需在 `调用安装方法之前` 注册下面的事件：
 
 ```C#
-vanlliaInstaller.ProgressChanged += (_, x) => {
+VanillaInstaller.ProgressChanged += (_, x) => {
     Console.WriteLine(x.ProgressStatus);
 };
 ```
@@ -47,9 +52,9 @@ vanlliaInstaller.ProgressChanged += (_, x) => {
 ``` C#
 
 var resolver = new GameResolver(".minecraft");
-var vanlliaInstaller = new VanlliaInstaller(resolver, "1.12.2");
+var VanillaInstaller = new VanillaInstaller(resolver, "1.12.2");
 
-vanlliaInstaller.ProgressChanged += (_, x) => {
+VanillaInstaller.ProgressChanged += (_, x) => {
     Console.WriteLine(x.ProgressStatus);
 };
 
