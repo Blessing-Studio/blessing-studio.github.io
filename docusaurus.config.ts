@@ -136,7 +136,7 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/Blessing-Studio/blessing-studio.github.io',
+              href: 'https://github.com/Blessing-Studio',
             },
             {
               label: '官网',
