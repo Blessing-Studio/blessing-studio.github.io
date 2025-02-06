@@ -16,7 +16,7 @@ const FeatureList: FeatureItem[] = [
   {
     title: 'MinecraftLaunch',
     img: 'https://raw.githubusercontent.com/Blessing-Studio/MinecraftLaunch/master/MinecraftLaunch/.nuget/logo.png',
-    description: 'cs 第三方Minecraft 启动核心',
+    description: 'C# 第三方Minecraft 启动核心',
     alt: 'MinecraftLaunch Logo',
     link: '/docs/MinecraftLaunch'
   },
