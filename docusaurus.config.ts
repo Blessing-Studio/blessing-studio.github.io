@@ -123,7 +123,11 @@ const config: Config = {
           items: [
             {
               label: 'MinecraftLaunch',
-              to: '/docs/MinecraftLaunch/intro',
+              to: '/docs/MinecraftLaunch',
+            },
+            {
+              label: 'WonderLab',
+              to: '/docs/WonderLab',
             },
           ],
         },

@@ -18,14 +18,14 @@ const FeatureList: FeatureItem[] = [
     img: 'https://raw.githubusercontent.com/Blessing-Studio/MinecraftLaunch/master/MinecraftLaunch/.nuget/logo.png',
     description: 'C# 第三方Minecraft 启动核心',
     alt: 'MinecraftLaunch Logo',
-    link: '/docs/MinecraftLaunch/intro'
+    link: '/docs/MinecraftLaunch'
   },
   {
     title: 'WonderLab',
     img: 'https://blessing-studio.cn/wp-content/uploads/2025/01/IMG_2200.png',
     description: '第三方Minecraft 启动器',
     alt: 'WonderLab Logo',
-    link: '/docs/WonderLab/intro'
+    link: '/docs/WonderLab'
   },
 ];
 
