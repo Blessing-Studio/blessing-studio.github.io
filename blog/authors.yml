@@ -20,10 +20,20 @@ starcloudsea:
     Bilibili: https://space.bilibili.com/2123349162
     AFDian: https://afdian.com/a/Starcloudsea
 
+mail_set:
+  name: mail_set
+  title: 使用Arch(存疑)的Linux端维护者
+  url: https://mailset.top/
+  image_url: https://blog.mailset.top/img/favicon.webp
+  page: true
+  socials:
+    github: https://github.com/maailset
+    Bilibili: https://space.bilibili.com/435654748
+
 huang_fts427:
   name: Huang_fts427
-  title: 管理 WonderLab AUR 维护者
-  url: www.fts427.top
+  title: WonderLab AUR 维护者
+  url: https://www.fts427.top
   image_url: https://github.com/fts427.png
   email: FTS427@outlook.com
   page: true
@@ -31,4 +41,3 @@ huang_fts427:
     github: fts427
     Bilibili: https://space.bilibili.com/1978537245
     x: HuangFts427
-
