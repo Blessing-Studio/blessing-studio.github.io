@@ -145,6 +145,7 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.github,
+      additionalLanguages: ['csharp'],
     },
   } satisfies Preset.ThemeConfig,
 };
