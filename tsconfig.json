@@ -1,23 +1,8 @@
 {
+  // This file is not used in compilation. It is here just for a nice editor experience.
+  "extends": "@docusaurus/tsconfig",
   "compilerOptions": {
-    "baseUrl": ".",
-    "module": "esnext",
-    "target": "es2016",
-    "lib": ["dom", "esnext"],
-    "strict": true,
-    "esModuleInterop": true,
-    "incremental": false,
-    "skipLibCheck": true,
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "noUnusedLocals": true,
-    "strictNullChecks": true,
-    "forceConsistentCasingInFileNames": true,
-    "paths": {
-      "@/*": ["docs/.vitepress/*"],
-      "~/*": ["./*"]
-    }
+    "baseUrl": "."
   },
-  "include": ["**/*", "./docs/.vitepress/**/*"],
-  "exclude": ["dist", "node_modules", "cypress"]
+  "exclude": [".docusaurus", "build"]
 }

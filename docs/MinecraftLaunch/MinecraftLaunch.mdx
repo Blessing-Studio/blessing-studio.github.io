@@ -1,0 +1,108 @@
+---
+sidebar_position: 1
+---
+
+import Link from '@docusaurus/Link';
+
+# MinecraftLaunch
+
+:::warning
+该文档仅适用于MinecraftLaunch 4.0+\.
+
+### 在寻找3.0+的文档？
+
+VitePress 页面已经停止部署构建，这意味着如果你想访问原网站只能自己从GitHub的`vitepress`分支构建，不过你可以直接切换到`vitepress`分支以查看旧的文档，不过有些元素（如提示框）可能不起作用。
+
+不过我们不推荐再使用MinecraftLaunch 3.0+版本，因为它包含了多处命名错误以及一些Bug或者其它不好的东西，相比之下，MinecraftLaunch 4.0进行了完全的重构，命名错误已不存在，Bug也修复了很多（估计也产生了很多，哈哈😁），且多了一些功能（如NBT解析），目前除非有什么必要因素牵制，否则不是很建议使用MinecraftLaunch 3.0+.
+
+不过，如果你执意想要使用MinecraftLaunch 3.0+，请移步到这里查看文档：
+<Link className="button button--secondary button--lg" to="https://github.com/Blessing-Studio/MinecraftLaunch/tree/vitepress/docs" style={{ height: 47, marginBottom: 20}}>
+    MinecraftLaunch 3.0+ 旧文档（GitHub）
+</Link>
+:::
+
+
+
+:::note
+## 嗨！
+
+⚡️你想写启动器吗？⚡️
+
+⚡️想写启动器却苦于太麻烦了吗？⚡️（不是）
+
+那就赶快~~打电话订购~~快来看看这个文档！awa
+:::
+
+暂且抛开上面的不谈, 不过
+
+😎 MinecraftLaunch会让编写启动器的过程变得非常简单
+
+😁 也许你的代码除了电脑你也能看懂了！
+
+⚡️ MinecraftLaunch一直在优化速度，真的很快！
+
+🤯 你想到的这里说不定都有呢！
+
+🤔 在遇到问题时可以加入我们的群聊，我们可以帮忙解决awa
+
+:::warning
+那个......"怎么解压", "为啥解压要钱", "为啥必须要代码编辑器啊记事本不行吗", "txt改成exe了咋还是运行不起来啊"之类的话并不推荐在群里问(╯‵□′)╯︵┻━┻
+
+血压会很高的，真的！
+
+除非有kfc疯狂星期四降压套餐（bushi）
+:::
+
+:::tip
+因为`MinecraftLaunch`这个名字有点小长，所以在文档中所有`MinecraftLaunch`的字样我们将全部换成`ML`（绝对不是我们懒）
+:::
+
+# 开源协议
+
+**MIT**，这说明你可以对Minecraft进行修改并二次分发等操作，但是你需要表明原作者。
+
+<Link className="button button--primary button--lg" to="https://github.com/Blessing-Studio/license" style={{ height: 47, marginBottom: 20}}>
+    查看详细的开源协议
+</Link>
+
+# 使用了MinecraftLaunch的项目
+
+虽然并不推荐刚开始学就去扒这堆项目里的源代码，但是......不妨看看？awa
+
+
+:::note WonderLab
+真正的下一代跨平台 Minecraft 启动器
+
+WonderLab 是一个跨平台 Minecraft 启动器，支持自动更新、Modrinth、Curseforge 资源下载、全格式整合包安装（大概），并支持 Windows，MacOS，Linux 等操作系统，同时兼容 x64、Arm 架构
+
+- 作者：YangSpring114（没错MinecraftLaunch作者本人）
+- 开源协议：AGPL-3.0
+<Link className="button button--secondary button--lg" to="https://github.com/Blessing-Studio/WonderLab.Override" style={{ height: 47, marginBottom: 20}}>
+    GitHub
+</Link>
+:::
+
+:::note BadMC Launcher
+非常开放的跨平台启动器！
+
+BadMC Launcher基于 WinUI 3 和 Uno Platform，拥有Fluent的UI时也保持着高度的开放性，还有那个熟悉的跨平台（
+但是还支持脚本和插件！
+
+- 作者：Starcloudsea/Drowned.Get (夹带私货是吧)
+- 开源协议：MPL-2.0
+<Link className="button button--secondary button--lg" to="https://github.com/BadBC-Studio/BadMC_Launcher" style={{ height: 47, marginBottom: 20}}>
+    GitHub
+</Link>
+:::
+
+# 准备好了吗？
+
+别忘了准备：
+
+1. 一台电脑（至少我还没听说过啥手机还能写.NET C#项目）
+2. .NET 8.0+和C#
+3. 一个支持C#和.NET项目的代码编辑器（不是记事本，也不是真正的记事本！）
+4. 一个适合自己的框架（Avalonia，Uno Platform，Windows App SDK，WPF，MAUI或者Console）
+5. 基础的C#知识（必须）
+
+如果你准备好了，转到文档，我们开始吧！
