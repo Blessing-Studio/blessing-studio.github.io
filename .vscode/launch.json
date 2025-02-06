@@ -5,17 +5,18 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "调试 blessing-studio.github.io",
+            "name": "NPM 调试",
             "request": "launch",
             "runtimeArgs": [
                 "run",
-                "docs:dev"
+                "start"
             ],
             "runtimeExecutable": "npm",
             "skipFiles": [
                 "<node_internals>/**"
             ],
             "type": "node"
-        },
+        }
+
     ]
 }

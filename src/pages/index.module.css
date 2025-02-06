@@ -1,0 +1,87 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.joinColor {
+  color: var(--ifm-color-primary)
+}
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 6rem;
+  }
+}
+.headDiv *:not(svg) {
+  position: relative;
+  z-index: 1;
+}
+
+.supportHero {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.backgroundAnimatePrimary {
+  position: absolute;
+  z-index: 0;
+  height: 300%;
+  width: 300%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.svgPathPrimary {
+  fill: var(--ifm-color-primary-dark);
+  transform-origin: 13px 25px;
+  animation-name: spin;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.backgroundAnimateSecondary {
+  position: absolute;
+  z-index: 0;
+  height: 200%;
+  width: 200%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.svgPathSecondary {
+  fill: var(--ifm-color-primary-darker);
+  transform-origin: 13px 25px;
+  animation-name: spin;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.mainDiv {
+  padding: 3rem 0;
+  text-align: center;
+  position: relative;
+}
