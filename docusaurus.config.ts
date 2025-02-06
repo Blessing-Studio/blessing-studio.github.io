@@ -41,7 +41,7 @@ const config: Config = {
           // 请将其更改为您的存储库。
           // Delete this link （删除此链接） 以删除 Edit this page （编辑此页面） 链接。
           editUrl:
-            'https://github.com/Blessing-Studio/blessing-studio.github.io/',
+            'https://github.com/Blessing-Studio/blessing-studio.github.io/tree/docusaurus/',
         },
         blog: {
           showReadingTime: true,
@@ -52,7 +52,7 @@ const config: Config = {
           // 请将其更改为您的存储库。
           // Delete this link （删除此链接） 以删除 Edit this page （编辑此页面） 链接。
           editUrl:
-            'https://github.com/Blessing-Studio/blessing-studio.github.io/',
+            'https://github.com/Blessing-Studio/blessing-studio.github.io/tree/docusaurus/',
           // 实施博客最佳实践的有用选项
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
