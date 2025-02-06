@@ -1,8 +1,14 @@
 .feature {
   display: flex;
-  width: 400px;
+  width: 360px;
   height: 150px;
   align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .feature {
+    width: 95%;
+  }
 }
 
 .featureDiv {

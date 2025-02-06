@@ -19,7 +19,7 @@ function HomepageHeader() {
           <svg viewBox="-35 -25 100 100" className={styles.backgroundAnimateSecondary} xmlns="http://www.w3.org/2000/svg">
             <path className={styles.svgPathSecondary} d="M37-5C25.1-14.7,5.7-19.1-9.2-10-28.5,1.8-32.7,31.1-19.8,49c15.5,21.5,52.6,22,67.2,2.3C59.4,35,53.7,8.5,37-5Z"/>
           </svg>
-          <img style={{ width: '200px', height: '200px' }} src="img/BlessingStudio.png" alt="Blessing Studio Icon"/>
+          <img className={styles.heroLogo} src="img/BlessingStudio.png" alt="Blessing Studio Icon"/>
           <Heading as="h1" className="hero__title">
             {siteConfig.title}
           </Heading>
@@ -59,7 +59,7 @@ function HomepageSupport() {
               查看详情
             </Link>
             <Link
-              className="button button--secondary button--lg"
+              className={clsx('button button--secondary button--lg', styles.button)}
               to="https://github.com/Blessing-Studio">
               算了还是GitHub issues和Discussions吧😨
             </Link>
