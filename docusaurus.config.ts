@@ -1,23 +1,38 @@
-import {themes as prismThemes} from 'prism-react-renderer';
+import {themes as prismThemes} from 'prism - react - renderer';
 import type {Config} from '@docusaurus/types';
-import type * as Preset from '@docusaurus/preset-classic';
+import type * as Preset from '@docusaurus/preset - classic';
+import fs from 'fs';
 import path from 'path';
+
+// 读取包含GitHub Action ID的文件
+function getGitHubActionId() {
+    const metadataPath = path.join(__dirname,'metadata.env');
+    try {
+        const metadata = fs.readFileSync(metadataPath, 'utf8');
+        const match = metadata.match(/GITHUB_ACTION_ID=(\d+)/);
+        return match && match[1];
+    } catch (error) {
+        return null;
+    }
+}
+
+const githubActionId = getGitHubActionId();
 
 const config: Config = {
     title: 'Blessing.Docs.Demo',
-    tagline: 'Blessing Studio 官方文档站！🥳🥳🥳',
+    tagline: 'Blessing Studio官方文档站！🥳🥳🥳',
     favicon: 'img/BlessingStudio.png',
 
     // Set up your website's production URL here
-    url: 'http://demo-wiki.blessing-studio.tech',
+    url: 'http://demo - wiki.blessing - studio.tech',
     // Set <baseUrl>the // pathname of the providing site
     // For GitHub page deployments, it's usually '/<projectName>/'
     baseUrl: '/',
 
-    // GitHub 页面部署配置。
-    // 如果您不使用 GitHub 页面，则不需要这些。
-    organizationName: 'Blessing-Studio',
-    projectName: 'blessing-studio.github.io',
+    // GitHub页面部署配置。
+    // 如果您不使用GitHub页面，则不需要这些。
+    organizationName: 'Blessing - Studio', // This is usually your GitHub organization/username.
+    projectName: 'blessing - studio.github.io', // It is usually the name of the warehouse.
     deploymentBranch: 'docusaurus',
     trailingSlash: false,
     onBrokenLinks: 'throw',
@@ -27,8 +42,8 @@ const config: Config = {
     // Useful metadata, such as HTML lang. For example, if your website is a Chinese website, you
     // You may want to replace "en" with "zh - hans".
     i18n: {
-        defaultLocale: 'zh-Hans',
-        locales: ['zh-Hans'],
+        defaultLocale: 'zh - Hans',
+        locales: ['zh - Hans'],
     },
 
     presets: [
@@ -38,8 +53,9 @@ const config: Config = {
                 docs: {
                     sidebarPath: './sidebars.ts',
                     // 请将其更改为您的存储库。
-                    // Delete this link （删除此链接） 以删除 Edit this page （编辑此页面） 链接。
-                    editUrl: 'https://github.com/Blessing-Studio/blessing-studio.github.io/tree/docusaurus/',
+                    // Delete this link （删除此链接） 以删除Edit this page （编辑此页面） 链接。
+                    editUrl:
+                        'https://github.com/Blessing - Studio/blessing - studio.github.io/tree/docusaurus/',
                 },
                 blog: {
                     showReadingTime: true,
@@ -48,8 +64,9 @@ const config: Config = {
                         xslt: true,
                     },
                     // 请将其更改为您的存储库。
-                    // Delete this link （删除此链接） 以删除 Edit this page （编辑此页面） 链接。
-                    editUrl: 'https://github.com/Blessin-Studio/blessing-studio.github.io/tree/docusaurus/',
+                    // Delete this link （删除此链接） 以删除Edit this page （编辑此页面） 链接。
+                    editUrl:
+                        'https://github.com/Blessing - Studio/blessing - studio.github.io/tree/docusaurus/',
                     // 实施博客最佳实践的有用选项
                     onInlineTags: 'warn',
                     onInlineAuthors: 'warn',
@@ -64,7 +81,7 @@ const config: Config = {
 
     themeConfig: {
         // 替换为项目的社交卡片
-        image: 'img/docusaurus-socia-card.jpg',
+        image: 'img/docusaurus - social - card.jpg',
         navbar: {
             title: 'Blessing.Docs',
             logo: {
@@ -98,11 +115,11 @@ const config: Config = {
                     items: [
                         {
                             label: 'GitHub',
-                            href: 'https://github.com/Blessing-Studio/blessing-studio.github.io',
+                            href: 'https://github.com/Blessing - Studio/blessing - studio.github.io',
                         },
                         {
                             label: '官网',
-                            href: 'https://blessing-studio.cn',
+                            href: 'https://blessing - studio.cn',
                         },
                     ],
                 },
@@ -133,23 +150,22 @@ const config: Config = {
                     items: [
                         {
                             label: 'GitHub',
-                            href: 'https://github.com/Blessing-Studio',
+                            href: 'https://github.com/Blessing - Studio',
                         },
                         {
                             label: '官网',
-                            href: 'https://blessing-studio.cn',
+                            href: 'https://blessing - studio.cn',
                         },
                     ],
                 },
             ],
-            // 移除版权声明，因为在自定义Footer组件中处理
+            copyright: `Copyright © ${new Date().getFullYear()} Blessing Studio. Built with Docusaurus. GitHub Action ID: ${githubActionId}`,
         },
         prism: {
             theme: prismThemes.github,
             darkTheme: prismThemes.github,
         },
     } satisfies Preset.ThemeConfig,
-    themes: ['@docusaurus/theme-classic', path.resolve(__dirname,'src/theme')],
 };
 
 export default config;
