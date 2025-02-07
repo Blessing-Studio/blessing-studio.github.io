@@ -3,8 +3,8 @@
     Blessing Studio 文档库
     <br />
     <br />
-    <a href="https://docusaurus.io">
-      <img src="https://docusaurus.io/img/slash-introducing.svg" alt="Docusaurus">
+    <a href="https://wiki.blessing-studio.cn">
+      <img src="https://s21.ax1x.com/2025/02/08/pEmlhi6.png" alt="Wikiblo.png" border="0" />
     </a>
   </h1>
 </div>
