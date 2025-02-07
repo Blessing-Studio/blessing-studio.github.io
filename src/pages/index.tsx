@@ -75,7 +75,7 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Blessing.Docs.Demo测试站点！🥳`}
+      title={`Blessing.Docs 🥳`}
       description="快速帮助使用Blessing Studio的各种项目awa">
       <HomepageHeader />
       <main>
