@@ -53,7 +53,7 @@ const config: Config = {
           // Delete this link （删除此链接） 以删除 Edit this page （编辑此页面） 链接。
           editUrl:
             'https://github.com/Blessing-Studio/blessing-studio.github.io/tree/docusaurus/',
-          // 实施博客最佳实践的有用选项
+          // 实施博客最佳实践的有用选项1
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -86,13 +86,6 @@ const config: Config = {
           sidebarId: 'wonderLabSidebar',
           position: 'left',
           label: 'WonderLab',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'designSidebar',
-          position: 'left',
-          label: 'DB设计规范',
-          to: '/docs/design' // 这里指向 /docs/design
         },
         {to: '/blog', label: '日志&博客', position: 'left'},
         {
@@ -135,10 +128,6 @@ const config: Config = {
             {
               label: 'WonderLab',
               to: '/docs/WonderLab',
-            },
-            {
-              label: 'design',
-              to: '/docs/design',
             },
           ],
         },
