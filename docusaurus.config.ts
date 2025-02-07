@@ -10,7 +10,7 @@ const config: Config = {
   favicon: 'img/BlessingStudio.png',
 
   // Set up your website's production URL here
-  url: 'http://wiki.blessing-studio.tech',
+  url: 'https://blessing-studio.github.io',
   // Set <baseUrl>the // pathname of the providing site
   // For GitHub page deployments, it's usually '/<projectName>/'
   baseUrl: '/',
@@ -53,7 +53,7 @@ const config: Config = {
           // Delete this link （删除此链接） 以删除 Edit this page （编辑此页面） 链接。
           editUrl:
             'https://github.com/Blessing-Studio/blessing-studio.github.io/tree/docusaurus/',
-          // 实施博客最佳实践的有用选项1
+          // 实施博客最佳实践的有用选项
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -66,18 +66,10 @@ const config: Config = {
   ],
 
   themeConfig: {
-    announcementBar: {
-      id: 'happy-new-year',
-      content:
-        'BlessingStudio 全体开发成员,祝各位新春快乐!',
-      backgroundColor: '#D80000',
-      textColor: '#ffffff',
-      isCloseable: false,
-    },
     // 替换为项目的社交卡片
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Blessing Docs',
+      title: 'Blessing.Docs',
       logo: {
         alt: 'Blessing.Docs Logo',
         src: 'img/BlessingStudio.png',
@@ -95,7 +87,7 @@ const config: Config = {
           position: 'left',
           label: 'WonderLab',
         },
-        {to: '/blog', label: '日志&博客', position: 'left'},
+        {to: '/blog', label: 'Blog', position: 'left'},
         {
           type: 'docSidebar',
           sidebarId: 'aboutSidebar',
@@ -153,11 +145,12 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Blessing Studio. Submit modified branch by dream_pep`,
+      copyright: `Copyright © ${new Date().getFullYear()} Blessing Studio. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.github,
+      additionalLanguages: ['csharp'],
     },
   } satisfies Preset.ThemeConfig,
 };
