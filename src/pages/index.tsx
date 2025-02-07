@@ -46,7 +46,9 @@ function HomepageSupport() {
             需要寻求帮助？
           </Heading>
           <p className="hero__subtitle">
-            我们有一些群聊，群聊里面的人非常《和谐友爱》，也许群聊里面有人可以帮助你解决问题，需要帮助的话进去问问？awa
+            我们有一些群聊，群聊里面的人非常《和谐友爱》，
+            <br/>
+            也许群聊里面有人可以帮助你解决问题，需要帮助的话进去问问？awa
             <br/>
             当然，闲聊灌水也可以，甚至⚡发 电⚡😈
             <br/><br/>
@@ -73,7 +75,7 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Blessing.Docs 滴新站点！🥳`}
+      title={`Blessing.Docs 🥳`}
       description="快速帮助使用Blessing Studio的各种项目awa">
       <HomepageHeader />
       <main>

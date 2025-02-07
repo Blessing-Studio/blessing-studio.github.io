@@ -20,6 +20,15 @@ starcloudsea:
     Bilibili: https://space.bilibili.com/2123349162
     AFDian: https://afdian.com/a/Starcloudsea
 
+dreampep:
+  name: dream_pep
+  title: 经常网络性死亡的美术设计
+  url: https://github.com/dream-pep
+  image_url: https://github.com/dream-pep.png
+  page: true
+  socials:
+    github: dream-pep
+
 huang_fts427:
   name: Huang_fts427
   title: 管理 WonderLab AUR 维护者
@@ -31,4 +40,3 @@ huang_fts427:
     github: fts427
     Bilibili: https://space.bilibili.com/1978537245
     x: HuangFts427
-

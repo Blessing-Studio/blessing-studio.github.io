@@ -66,6 +66,14 @@ const config: Config = {
   ],
 
   themeConfig: {
+    announcementBar: {
+      id: 'happy-new-year',
+      content:
+        'BlessingStudio 全体开发成员,祝各位新春快乐!',
+      backgroundColor: '#D80000',
+      textColor: '#ffffff',
+      isCloseable: true,
+    },
     // 替换为项目的社交卡片
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
@@ -86,6 +94,12 @@ const config: Config = {
           sidebarId: 'wonderLabSidebar',
           position: 'left',
           label: 'WonderLab',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'designSidebar',
+          position: 'left',
+          label: '设计规范',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
@@ -116,7 +130,7 @@ const config: Config = {
       ],
     },
     footer: {
-      style: 'light',
+      style: 'dark',
       links: [
         {
           title: '文档',
@@ -145,6 +159,11 @@ const config: Config = {
           ],
         },
       ],
+      logo: {
+        alt: 'Meta Open Source Logo',
+        src: '/img/BWP.png',
+        href: 'https://blessing-studio.cn',
+      },
       copyright: `Copyright © ${new Date().getFullYear()} Blessing Studio. Built with Docusaurus.`,
     },
     prism: {

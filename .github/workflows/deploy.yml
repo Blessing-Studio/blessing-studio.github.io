@@ -11,6 +11,8 @@ jobs:
   build:
     name: Build Docusaurus
     runs-on: ubuntu-latest
+    env:
+      GITHUB_ACTION_ID: ${{ github.run_id }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -24,6 +26,13 @@ jobs:
         run: npm ci
       - name: Build website
         run: npm run build
+      - name: Create metadata file
+        run: echo "GITHUB_ACTION_ID=${{ github.run_id }}" > metadata.env
+      - name: Upload metadata file
+        uses: actions/upload-artifact@v4
+        with:
+          name: metadata
+          path: metadata.env
 
       - name: Upload Build Artifact
         uses: actions/upload-pages-artifact@v3

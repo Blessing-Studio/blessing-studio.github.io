@@ -7,3 +7,8 @@ WonderLab:
   label: WonderLab
   permalink: /WonderLab
   description: 关于 WonderLab 的内容
+
+design:
+  label: BD设计规范
+  permalink: /design
+  description: 关于 design 的内容
