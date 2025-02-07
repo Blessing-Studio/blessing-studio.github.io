@@ -69,7 +69,7 @@ const config: Config = {
     // 替换为项目的社交卡片
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Blessing.Docs',
+      title: 'Blessing Docs',
       logo: {
         alt: 'Blessing.Docs Logo',
         src: 'img/BlessingStudio.png',
@@ -87,7 +87,13 @@ const config: Config = {
           position: 'left',
           label: 'WonderLab',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {
+          type: 'docSidebar',
+          sidebarId: 'designSidebar',
+          position: 'left',
+          label: 'DB设计规范',
+        },
+        {to: '/blog', label: '日志&博客', position: 'left'},
         {
           type: 'docSidebar',
           sidebarId: 'aboutSidebar',
@@ -128,6 +134,10 @@ const config: Config = {
             {
               label: 'WonderLab',
               to: '/docs/WonderLab',
+            },
+            {
+              label: 'BD设计规范',
+              to: '/docs/design',
             },
           ],
         },
