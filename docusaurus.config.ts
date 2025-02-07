@@ -66,6 +66,14 @@ const config: Config = {
   ],
 
   themeConfig: {
+    announcementBar: {
+      id: 'happy-new-year',
+      content:
+        'BlessingStudio 全体开发成员,祝各位新春快乐!',
+      backgroundColor: '#D80000',
+      textColor: '#ffffff',
+      isCloseable: true,
+    },
     // 替换为项目的社交卡片
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
