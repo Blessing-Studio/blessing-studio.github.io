@@ -69,8 +69,8 @@ const config: Config = {
     announcementBar: {
       id: 'happy-new-year',
       content:
-        '<h5>BlessingStudio 全体开发成员,祝各位新春快乐!</h5>',
-      backgroundColor: '#ff0051',
+        'BlessingStudio 全体开发成员,祝各位新春快乐!',
+      backgroundColor: '#D80000',
       textColor: '#ffffff',
       isCloseable: false,
     },
