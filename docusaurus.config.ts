@@ -92,6 +92,7 @@ const config: Config = {
           sidebarId: 'designSidebar',
           position: 'left',
           label: 'DB设计规范',
+          to: '/docs/design' // 这里指向 /docs/design
         },
         {to: '/blog', label: '日志&博客', position: 'left'},
         {
@@ -136,7 +137,7 @@ const config: Config = {
               to: '/docs/WonderLab',
             },
             {
-              label: 'BD设计规范',
+              label: 'design',
               to: '/docs/design',
             },
           ],
