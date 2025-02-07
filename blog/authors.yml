@@ -23,10 +23,9 @@ starcloudsea:
 dreampep:
   name: dream_pep
   title: 经常网络性死亡的美术设计
-  url: https://github.com/dream_pep
-  image_url: https://github.com/dream_pep.png
+  url: https://github.com/dream-pep
+  image_url: https://github.com/dream-pep.png
   page: true
   socials:
-    github: Starcloudsea
-
+    github: dream-pep
 
