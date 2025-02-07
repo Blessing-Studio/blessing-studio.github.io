@@ -10,7 +10,7 @@ const config: Config = {
   favicon: 'img/BlessingStudio.png',
 
   // Set up your website's production URL here
-  url: 'http://demo-wiki.blessing-studio.tech',
+  url: 'http://wiki.blessing-studio.tech',
   // Set <baseUrl>the // pathname of the providing site
   // For GitHub page deployments, it's usually '/<projectName>/'
   baseUrl: '/',
@@ -145,7 +145,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Blessing Studio. 这是特别版本,不建议用于生产环境,请查看正式版本`,
+      copyright: `Copyright © ${new Date().getFullYear()} Blessing Studio. Submit modified branch by dream_pep`,
     },
     prism: {
       theme: prismThemes.github,
