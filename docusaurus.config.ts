@@ -5,12 +5,12 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This works in Node.js - don't use client-side code (browser API, JSX, etc.) here.
 
 const config: Config = {
-  title: 'Blessing.Docs',
+  title: 'Blessing.Docs.BETA',
   tagline: 'Blessing Studio 官方文档站！🥳🥳🥳',
   favicon: 'img/BlessingStudio.png',
 
   // Set up your website's production URL here
-  url: 'https://blessing-studio.github.io',
+  url: 'http://demo-wiki.blessing-studio.tech',
   // Set <baseUrl>the // pathname of the providing site
   // For GitHub page deployments, it's usually '/<projectName>/'
   baseUrl: '/',
