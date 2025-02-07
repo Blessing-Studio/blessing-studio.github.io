@@ -101,7 +101,7 @@ const config: Config = {
           position: 'left',
           label: '设计规范',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/blog', label: '博客日志', position: 'left'},
         {
           type: 'docSidebar',
           sidebarId: 'aboutSidebar',
@@ -110,7 +110,7 @@ const config: Config = {
         },
         {
           type: 'dropdown',
-          label: '社交链接',
+          label: '快速链接',
           position: 'right',
           items: [
             {
@@ -118,7 +118,7 @@ const config: Config = {
               href: 'https://github.com/Blessing-Studio/blessing-studio.github.io',
             },
             {
-              label: '官网',
+              label: '（中国）官网',
               href: 'https://blessing-studio.cn',
             },
           ],
@@ -143,6 +143,10 @@ const config: Config = {
               label: 'WonderLab',
               to: '/docs/WonderLab',
             },
+            {
+              label: '设计规范',
+              to: '/docs/design',
+            },
           ],
         },
         {
@@ -153,7 +157,7 @@ const config: Config = {
               href: 'https://github.com/Blessing-Studio',
             },
             {
-              label: '官网',
+              label: 'Blessing（中国）官网',
               href: 'https://blessing-studio.cn',
             },
           ],
