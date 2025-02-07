@@ -159,6 +159,11 @@ const config: Config = {
           ],
         },
       ],
+      logo: {
+        alt: 'Meta Open Source Logo',
+        src: '/img/meta_opensource_logo_negative.svg',
+        href: 'https://opensource.fb.com',
+      },
       copyright: `Copyright © ${new Date().getFullYear()} Blessing Studio. Built with Docusaurus.`,
     },
     prism: {
