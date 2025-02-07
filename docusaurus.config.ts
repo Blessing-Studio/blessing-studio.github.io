@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This works in Node.js - don't use client-side code (browser API, JSX, etc.) here.
 
 const config: Config = {
-  title: 'Blessing.Docs.Demo',
+  title: 'Blessing.Docs',
   tagline: 'Blessing Studio 官方文档站！🥳🥳🥳',
   favicon: 'img/BlessingStudio.png',
 
