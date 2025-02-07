@@ -69,7 +69,7 @@ const config: Config = {
     announcementBar: {
       id: 'happy-new-year',
       content:
-        'BlessingStudio全体开发成员祝各位新春快乐 <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
+        '<h3>BlessingStudio 全体开发成员,祝各位新春快乐!</h3>',
       backgroundColor: '#ff0051',
       textColor: '#ffffff',
       isCloseable: false,
