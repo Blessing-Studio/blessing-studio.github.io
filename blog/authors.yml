@@ -20,4 +20,13 @@ starcloudsea:
     Bilibili: https://space.bilibili.com/2123349162
     AFDian: https://afdian.com/a/Starcloudsea
 
+dreampep:
+  name: dream_pep
+  title: 经常网络性死亡的美术设计
+  url: https://github.com/dream_pep
+  image_url: https://github.com/dream_pep.png
+  page: true
+  socials:
+    github: Starcloudsea
+
 
