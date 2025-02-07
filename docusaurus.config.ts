@@ -149,7 +149,7 @@ const config: Config = {
             darkTheme: prismThemes.github,
         },
     } satisfies Preset.ThemeConfig,
-    themes: ['@docusaurus/theme - classic', path.resolve(__dirname,'src/theme')],
+    themes: ['@docusaurus/theme-classic', path.resolve(__dirname,'src/theme')],
 };
 
 export default config;
