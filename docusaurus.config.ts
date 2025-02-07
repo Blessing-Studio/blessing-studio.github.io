@@ -1,6 +1,6 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 import type {Config} from '@docusaurus/types';
-import type * as Preset from '@docusaurus/preset - classic';
+import type * as Preset from '@docusaurus/preset-classic';
 import path from 'path';
 
 const config: Config = {
@@ -9,15 +9,15 @@ const config: Config = {
     favicon: 'img/BlessingStudio.png',
 
     // Set up your website's production URL here
-    url: 'http://demo - wiki.blessing - studio.tech',
+    url: 'http://demo-wiki.blessing-studio.tech',
     // Set <baseUrl>the // pathname of the providing site
     // For GitHub page deployments, it's usually '/<projectName>/'
     baseUrl: '/',
 
     // GitHub 页面部署配置。
     // 如果您不使用 GitHub 页面，则不需要这些。
-    organizationName: 'Blessing - Studio',
-    projectName: 'blessing - studio.github.io',
+    organizationName: 'Blessing-Studio',
+    projectName: 'blessing-studio.github.io',
     deploymentBranch: 'docusaurus',
     trailingSlash: false,
     onBrokenLinks: 'throw',
@@ -27,8 +27,8 @@ const config: Config = {
     // Useful metadata, such as HTML lang. For example, if your website is a Chinese website, you
     // You may want to replace "en" with "zh - hans".
     i18n: {
-        defaultLocale: 'zh - Hans',
-        locales: ['zh - Hans'],
+        defaultLocale: 'zh-Hans',
+        locales: ['zh-Hans'],
     },
 
     presets: [
@@ -39,7 +39,7 @@ const config: Config = {
                     sidebarPath: './sidebars.ts',
                     // 请将其更改为您的存储库。
                     // Delete this link （删除此链接） 以删除 Edit this page （编辑此页面） 链接。
-                    editUrl: 'https://github.com/Blessing - Studio/blessing - studio.github.io/tree/docusaurus/',
+                    editUrl: 'https://github.com/Blessing-Studio/blessing-studio.github.io/tree/docusaurus/',
                 },
                 blog: {
                     showReadingTime: true,
@@ -49,7 +49,7 @@ const config: Config = {
                     },
                     // 请将其更改为您的存储库。
                     // Delete this link （删除此链接） 以删除 Edit this page （编辑此页面） 链接。
-                    editUrl: 'https://github.com/Blessing - Studio/blessing - studio.github.io/tree/docusaurus/',
+                    editUrl: 'https://github.com/Blessin-Studio/blessing-studio.github.io/tree/docusaurus/',
                     // 实施博客最佳实践的有用选项
                     onInlineTags: 'warn',
                     onInlineAuthors: 'warn',
@@ -64,7 +64,7 @@ const config: Config = {
 
     themeConfig: {
         // 替换为项目的社交卡片
-        image: 'img/docusaurus - social - card.jpg',
+        image: 'img/docusaurus-socia-card.jpg',
         navbar: {
             title: 'Blessing.Docs',
             logo: {
@@ -98,11 +98,11 @@ const config: Config = {
                     items: [
                         {
                             label: 'GitHub',
-                            href: 'https://github.com/Blessing - Studio/blessing - studio.github.io',
+                            href: 'https://github.com/Blessing-Studio/blessing-studio.github.io',
                         },
                         {
                             label: '官网',
-                            href: 'https://blessing - studio.cn',
+                            href: 'https://blessing-studio.cn',
                         },
                     ],
                 },
@@ -133,11 +133,11 @@ const config: Config = {
                     items: [
                         {
                             label: 'GitHub',
-                            href: 'https://github.com/Blessing - Studio',
+                            href: 'https://github.com/Blessing-Studio',
                         },
                         {
                             label: '官网',
-                            href: 'https://blessing - studio.cn',
+                            href: 'https://blessing-studio.cn',
                         },
                     ],
                 },
