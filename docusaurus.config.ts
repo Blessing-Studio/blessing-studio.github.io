@@ -99,7 +99,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'designSidebar',
           position: 'left',
-          label: 'SD设计规范',
+          label: '设计规范',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
