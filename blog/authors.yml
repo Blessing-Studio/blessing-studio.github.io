@@ -40,3 +40,15 @@ huang_fts427:
     github: fts427
     Bilibili: https://space.bilibili.com/1978537245
     x: HuangFts427
+
+mail_set:
+  name: mail_set
+  title: 使用Arch（可疑）的Linux端维护者
+  url: https://mailset.top/
+  image_url: https://blog.mailset.top/img/favicon.webp
+  email: mail_set@mailset.top
+  page: true
+  socials:
+    github: maailset
+    bilibili: https://space.bilibili.com/435654748
+    x: mail_set114514
